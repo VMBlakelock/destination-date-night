@@ -36,6 +36,14 @@
 
 ## Technologies Used 
 
+- html5
+- css3
+- Git
+- [Bootstrap](https://getbootstrap.com/)
+- [Github](https://github.com/)
+- [Gitpod](https://gitpod.io/)
+- [Balsamiq](https://balsamiq.com/)
+
 ## Testing
 
 #### Issue 1
