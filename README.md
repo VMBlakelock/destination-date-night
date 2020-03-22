@@ -43,6 +43,7 @@
 - [Github](https://github.com/)
 - [Gitpod](https://gitpod.io/)
 - [Balsamiq](https://balsamiq.com/)
+- [Google Fonts](https://google.fonts.com/)
 
 ## Testing
 
