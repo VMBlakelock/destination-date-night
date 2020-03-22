@@ -79,6 +79,9 @@ Websites reviewed and used during the creation of this project.
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
   - Used this website to refresh how to use Markdown
 
+- [Google Fonts](https://www.fonts.google.com/basic-syntax/)
+  - Used for choosing inital font for css @import
+
 #### Media Used 
 
 ## Acknowledgements
