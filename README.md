@@ -2,15 +2,15 @@
 
 # Destination Date Night 
 
-# Aim
+## Aim
 
-# Purpose
+## Purpose
 
-# UX
+## UX
 
-# User stories
+## User stories
 
-# 5 Planes
+## 5 Planes
 
 ### Strategy
 
@@ -20,39 +20,39 @@
 
 ### Skeleton
 
-##### Wireframes
+#### Wireframes
 
-##### Mobile
+#### Mobile
 
-##### Desktop
+#### Desktop
 
 ### Surface 
 
-# Features 
+## Features 
 
-## Existing Features
+### Existing Features
 
-## Future Features
+### Future Features
 
-# Technologies Used 
+## Technologies Used 
 
-# Testing
+## Testing
 
-##### Issue 1
+#### Issue 1
 
-# Deployment
+## Deployment
 
-# Credits
+## Credits
 
-##### Websites reviewed
+#### Websites reviewed
 
-Here are some website used to review and assist in the making of this project.
+Websites reviewed and used during the creation of this project.
 
 *
 
-##### Media Used 
+#### Media Used 
 
-# Acknowledgements
+## Acknowledgements
 
 *created for education purposes only*
 
