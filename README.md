@@ -76,7 +76,8 @@ If you want to run this project locally, we must clone the project for Github:
 
 Websites reviewed and used during the creation of this project.
 
-*
+- [Markdownguide](https://www.markdownguide.org/basic-syntax/)
+  - Used this website to refresh how to use Markdown
 
 #### Media Used 
 
