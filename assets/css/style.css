@@ -1,1 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
+
+
+body {
+    background-color: rgb(95, 79, 85);
+}
