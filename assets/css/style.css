@@ -4,3 +4,10 @@
 body {
     background-color: rgb(95, 79, 85);
 }
+
+/*-----footer-------*/
+
+.footer-background {
+    background-color: #101316;
+    color: rgb(255, 255, 255)
+}
