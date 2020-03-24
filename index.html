@@ -13,25 +13,29 @@
 
 <body>
 	<header>
-		
+		<!--navbar using bootstrap-->
+
 		<nav class="navbar navbar-expand-sm navbar-dark">
         <a href="index.html">
 			<h2>Destination Date Night</h2>
 		</a>
-			<ul>
-				<li>
-					<!--Home-->
-					<a href="index.html">Home</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+
+            <!--Home-->
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 				</li>
-				<li>
-					<!--About Us-->
-					<a href="#">The Dating Game</a>
+                <!--About Us-->
+				<li class="nav-item">
+					<a class="nav-link" href="#">The Dating Game</a>
 				</li>
-				<li>
-					<!--Creating the date-->
-					<a href="#">Make A Date</a>
+                <!--Creating the date-->
+				<li class="nav-item">
+					<a class="nav-link" href="#">Make A Date</a>
 				</li>
 			</ul>
+			</div>
 		</nav>
 	</header>
 
