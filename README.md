@@ -51,12 +51,12 @@
 
 Footer 
 - I struggled to get the positioning right in footer finally managed after testing a few different scenarios. Realised I should have done the testing in a branch to show the workings.
-- Couldnt get font awesome to take the wanted instragam icon, all other social icons worked just this one, eventually tried an alternative icon and it displayed correctly, so therefore kept this icon in.
+- Font Awesome Instragam icon square would not load, all other social icons in square format worked just this one, I eventually tried the alternative non square icon and this displayed correctly, therefore kept this icon on the site.
 
-#### Issue 1
+#### Issue 2
 
 Navbar
-- Built the site following Bootstrap navbar documentation, however I wanted the navbar hamburger on the right instead of left. Reviewed Bootstrap again and realised I had not added 'navbar-brand' so I added this in. I also moved the entire 'a class' to above the 'button'. This changed the position of the hamburger on mobiles.
+- The Navbar was built following Bootstrap Navbar Documentation, however I wanted the navbar hamburger on the right instead of left on mobiles. After reviewing Bootstrap again I realised I had not added 'navbar-brand' to the nav html so I added this in. I also moved the entire 'a class' to above the 'button', this changed the position of the hamburger on mobiles.
 
 #### Issue 3
 
