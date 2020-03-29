@@ -16,6 +16,30 @@ It is hoped that the users will find ideas using the search criteria offered and
 
 ## User stories
 
+### Owner
+
+The owner would like the website to - 
+
+- Allow users to find their perfect date location.
+
+- To be one page, with three easy to navigate sections. Home, The Dating Game, and Create A Date.
+
+- Have a Navigation Bar that links to the sections when clicked.
+
+- House criteria boxes that can be selected.
+
+- Uses Google Maps / Places to pin locations.
+
+- Have a footer containing social media icons.
+
+The site will -
+
+1. House the Destination Date Night Logo
+2. Have one main background image
+3. Explain the websites outcome
+4. Link to external social media sites
+5. Will have a location and email address
+
 ## 5 Planes
 
 ### Strategy
