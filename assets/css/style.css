@@ -13,6 +13,20 @@ body {
     background-color: #101316;
 }
 
+/*image container with text*/
+
+.container {
+position: relative;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+.centered {
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate (-50%, -50%);
+}
 
 /*-----footer-------*/
 
