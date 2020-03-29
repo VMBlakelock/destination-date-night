@@ -13,7 +13,9 @@ body {
     background-color: #101316;
 }
 
-/*image container with text*/
+/*--image container with text--*/
+
+        /*--code from w3schools--*/
 
 .container {
 position: relative;
@@ -26,6 +28,12 @@ position: absolute;
 top: 30%;
 left: 50%;
 transform: translate (-50%, -50%);
+}
+  /*--code end from w3schools--*/
+
+.italic {
+font-style: italic;
+font-size: 25px;
 }
 
 /*-----footer-------*/
