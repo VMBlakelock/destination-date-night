@@ -26,10 +26,10 @@ color: rgb(255, 255, 255);
 .centered {
 position: absolute;
 top: 20%;
-left: 50%;
+left: 20%;
 transform: translate (-50%, -50%);
 }
-  /*--code end from w3schools--*/
+        /*--code end from w3schools--*/
 
 .italic {
 font-style: italic;
