@@ -13,6 +13,11 @@ body {
     background-color: #101316;
 }
 
+.navbar-nav.navbar-centre {
+    position: absolute;
+    left: 50%;
+}
+
 /*-----footer-------*/
 
 .footer-background {
