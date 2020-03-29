@@ -90,6 +90,19 @@ Navbar
 
 #### Issue 3
 
+Background image
+- After adding a container to my background image, the image moved and I ended up with a offset margin to the left .........
+
+#### Issue 4
+
+IPAD
+- During the creation of this project getting it to be responsive on an IPAD proved challenging. ..............
+
+
+
+### Browsers tested
+
+- Chrome, using Google Developer Tools
 
 ## Deployment
 
@@ -120,10 +133,13 @@ If you want to run this project locally, we must clone the project for Github:
 Websites reviewed and used during the creation of this project.
 
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
-  - Used this website to refresh how to use Markdown
+  - Used this website to refresh knowledge on how to use Markdown
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
   - Used for choosing inital font for css @import
+
+- [W3Schools](https://www.w3schools.com/basic-syntax/)
+  - Reviewed and used frequently throughout the design of this poject. Specifically for the styling of the text over image.
 
 #### Media Used 
 
