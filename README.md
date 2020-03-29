@@ -4,7 +4,13 @@
 
 ## Aim
 
+To create an interactive front end website that responds accordingly to the users actions. This website is designed so users can search for their perfect date.
+
 ## Purpose
+
+The owner of Destination Date Night wants to create a search based website that allows users to select criteria that in turn presents locations for them to review in order to make decisions on where to go on their date.
+
+It is hoped that the users will find ideas using the search criteria offered and the results the site returns.
 
 ## UX
 
