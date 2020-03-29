@@ -49,6 +49,18 @@
 
 #### Issue 1
 
+Footer 
+- I struggled to get the positioning right in footer finally managed after testing a few different scenarios. Realised I should have done the testing in a branch to show the workings.
+- Couldnt get font awesome to take the wanted instragam icon, all other social icons worked just this one, eventually tried an alternative icon and it displayed correctly, so therefore kept this icon in.
+
+#### Issue 1
+
+Navbar
+- Built the site following Bootstrap navbar documentation, however I wanted the navbar hamburger on the right instead of left. Reviewed Bootstrap again and realised I had not added 'navbar-brand' so I added this in. I also moved the entire 'a class' to above the 'button'. This changed the position of the hamburger on mobiles.
+
+#### Issue 3
+
+
 ## Deployment
 
 In order to deploy the project to [GitHub](https://github.com/) Pages from its GitHub repository, follow the below steps:
