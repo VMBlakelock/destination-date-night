@@ -28,6 +28,7 @@ body {
     padding: 0px;
 }
 
+
 /*--image container with text--*/
 
         /*--code from w3schools--*/
@@ -40,7 +41,7 @@ body {
 
 .centered {
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 25%;
     transform: translate (-50%, -50%);
 }
@@ -49,8 +50,8 @@ body {
 
 
 .italic {
-font-style: italic;
-font-size: 25px;
+    font-style: italic;
+    font-size: 25px;
 }
 
 /*-----footer-------*/
