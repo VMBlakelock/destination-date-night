@@ -13,6 +13,15 @@ body {
     background-color: #101316;
 }
 
+.navbar-font {
+    font-size: 200%;
+    font: rgb(37, 21, 129)
+}
+
+.nav-link-font {
+    font-size: 150%;
+}
+
 /*--image container with text--*/
 
         /*--code from w3schools--*/
