@@ -15,11 +15,17 @@ body {
 
 .navbar-font {
     font-size: 200%;
-    font: rgb(37, 21, 129)
+    margin: 12px;
 }
 
 .nav-link-font {
     font-size: 150%;
+}
+
+/*--background image--*/
+
+.padding {
+    padding: 0px;
 }
 
 /*--image container with text--*/
@@ -27,18 +33,20 @@ body {
         /*--code from w3schools--*/
 
 .container {
-position: relative;
-text-align: center;
-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: left;
+    color: rgb(255, 255, 255);
 }
 
 .centered {
-position: absolute;
-top: 20%;
-left: 20%;
-transform: translate (-50%, -50%);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate (-50%, -50%);
 }
-        /*--code end from w3schools--*/
+
+    /*--end of code from w3schools--*/
+
 
 .italic {
 font-style: italic;
