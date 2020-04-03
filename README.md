@@ -8,7 +8,7 @@ To create an interactive front end website that responds accordingly to the user
 
 ## Purpose
 
-The owner of Destination Date Night wants to create a search based website that allows users to select criteria that in turn presents locations for them to review in order to make decisions on where to go on their date.
+The owner of Destination Date Night wants to create a criteria based website that allows users to select criteria thats predefined in a dropdown that in turn presents locations for them to review in order to make decisions on were to go on their date.
 
 It is hoped that the users will find ideas using the search criteria offered and the results the site returns.
 
