@@ -52,9 +52,15 @@ The site will -
 
 #### Wireframes
 
+Desktop and Mobile wireframes were created to demonstrate the intial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
+
 #### Mobile
 
+The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe shows a view were all of the features sit on top of each other in a responsive manner. For example the navbar utilises the hamburger icon add is positioned on the right, the date type/xx /location dropdowns are central and the footer information sits ontop in a central position.
+
 #### Desktop
+
+The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look with columns of two for the map and date type/xx/ location dropdowns and three columns for the footer information. 
 
 ### Surface 
 
