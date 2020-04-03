@@ -54,6 +54,13 @@ body {
     font-size: 25px;
 }
 
+
+.center {
+text-align: center;
+display: inline-block;
+width: 200%;
+}
+
 /*-----footer-------*/
 
 .footer-background {
