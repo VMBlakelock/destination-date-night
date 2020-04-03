@@ -4,7 +4,7 @@
 
 ## Aim
 
-To create an interactive front end website that responds accordingly to the users actions. This website is designed so users can search for their perfect date.
+To create an interactive front end website that responds accordingly to the users actions. This website is designed so users can select dropdown criteria to create their perfect date.
 
 ## Purpose
 
