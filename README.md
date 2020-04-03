@@ -68,6 +68,14 @@ The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gi
 
 ### Existing Features
 
+One webpage page: The site uses just one page. 
+
+Navbar: The navbar is responsive and links to the two main sections The Dating Game and Make A Date.
+
+Google Map:
+
+Social Media Links: Social Media icons are positioned in the footer information so to allow users to visit other Destination Date Night media.
+
 ### Future Features
 
 ## Technologies Used 
