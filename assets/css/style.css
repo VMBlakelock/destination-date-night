@@ -5,6 +5,7 @@ body {
     background-color: rgb(95, 79, 85);
     color: rgb(255, 255, 255);
     font-family: "oswald", sans-serif;
+    text-align: center;
 }
 
 /*-----navbar-------*/
@@ -55,12 +56,6 @@ body {
 }
 
 
-.center {
-text-align: center;
-display: inline-block;
-width: 200%;
-}
-
 /*-----footer-------*/
 
 .footer-background {
@@ -70,4 +65,8 @@ width: 200%;
 #bold {
     font-weight: bold;
     margin: 20px;
+}
+
+.footer-spacing {
+    padding-top: 20px;
 }
