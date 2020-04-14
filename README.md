@@ -78,7 +78,7 @@ The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gi
 
 One webpage page: The site uses just one page. 
 
-Navbar: The navbar is responsive and links to only two of the main sections The Dating Game and Make A Date.
+Navbar: The navbar is responsive and links to only two of the main sections The Dating Game and Create A Date.
 
 Dropdowns: The three dropdowns are defined with an individual title, Date Type, Date Cost, Date Location. The dropdown when clicked reveals specified criteria to select.
 
