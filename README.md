@@ -8,7 +8,7 @@ To create an interactive front end website that responds accordingly to the user
 
 ## Purpose
 
-The owner of Destination Date Night wants to create a criteria based website that allows users to select criteria thats predefined in a dropdown that in turn presents locations for them to review in order to make decisions on were to go on their date.
+The owner of Destination Date Night wants to create a criteria based website that allows users to select criteria thats predefined in a dropdown that presents an outcome for them to review in order to make decisions on were to go on their date.
 
 It is hoped that the users will find ideas using the search criteria offered and the results the site returns.
 
@@ -18,27 +18,32 @@ It is hoped that the users will find ideas using the search criteria offered and
 
 ### Owner
 
-The owner would like the website to - 
+The owner would like users of the website to - 
 
-- Allow users to find their perfect date location.
+-  Interact with the site to find their perfect date location.
 
-- To be one page, with three easy to navigate sections. Home, The Dating Game, and Create A Date.
 
-- Have a Navigation Bar that links to the sections when clicked.
+The owner would like the website design - 
 
-- House criteria boxes that can be selected.
+- To be one page with two easy to navigate sections. The Dating Game and Create A Date.
 
-- Uses Google Maps / Places to pin locations.
+- To have a Navigation Bar that links to the sections when clicked.
 
-- Have a footer containing social media icons.
+- To house criteria boxes that can be selected.
+
+- To use Google Maps to place a pin in locations based on the users criteria.
+
+- To have a footer containing social media icons.
+
+- To include contact details.
 
 The site will -
 
-1. House the Destination Date Night Logo
-2. Have one main background image
-3. Explain the websites outcome
-4. Link to external social media sites
-5. Will have a location and email address
+1. Have three main sections, the first an image with text enticing the user to look further, the second will be a querky narrative explaining the site, the third will house the interactivity.
+2. Explain the websites outcome by instructing how it is to be used.
+3. Based on criteria selected link to Google Maps where markers will pop up based on user selection. 
+4. Link to external social media sites.
+5. Will have a contact details - location and email address
 
 ## 5 Planes
 
@@ -52,7 +57,7 @@ The site will -
 
 #### Wireframes
 
-Desktop and Mobile wireframes were created to demonstrate the intial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
+Desktop and Mobile wireframes were created to demonstrate the initial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
 #### Mobile
 
@@ -62,6 +67,9 @@ The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe show
 
 The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look with columns of two for the map and date type/xx/ location dropdowns and three columns for the footer information. 
 
+*Wireframes note: The wireframes use the owners company name as vixwebmedia.co.uk whereas the actual site uses vixwebdesigns.co.uk an error on the designers side.*
+
+
 ### Surface 
 
 ## Features 
@@ -70,13 +78,17 @@ The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gi
 
 One webpage page: The site uses just one page. 
 
-Navbar: The navbar is responsive and links to the two main sections The Dating Game and Make A Date.
+Navbar: The navbar is responsive and links to only two of the main sections The Dating Game and Make A Date.
 
-Google Map:
+Dropdowns: The three dropdowns are defined with an individual title, Date Type, Date Cost, Date Location. The dropdown when clicked reveals specified criteria to select.
+
+Google Maps:  xxxxxxx
 
 Social Media Links: Social Media icons are positioned in the footer information so to allow users to visit other Destination Date Night media.
 
 ### Future Features
+
+It is hoped in the future the website can add more Date Criteria such as additonal scenarios (ie Date Mood - romantic, thrilling, no pressure)
 
 ## Technologies Used 
 
@@ -158,6 +170,8 @@ Websites reviewed and used during the creation of this project.
 #### Media Used 
 
 ## Acknowledgements
+
+The Slack community for assisting me on my journey through this website.
 
 *created for education purposes only*
 
