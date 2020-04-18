@@ -100,8 +100,11 @@ It is hoped in the future the website can add more Date Criteria such as additon
 - [Gitpod](https://gitpod.io/)
 - [Balsamiq](https://balsamiq.com/)
 - [Google Fonts](https://google.fonts.com/)
+- [W3C Markup Validation](https://validator.w3.org/)
 
 ## Testing
+
+Various testing was undertaken during the creation of this site including using the W3C Markup Validator. This validation check was ongoing throughout the project development.
 
 #### Issue 1
 
