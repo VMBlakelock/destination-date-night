@@ -9,3 +9,4 @@ function initMap() {
   // The marker, positioned at Uluru
   let marker = new google.maps.Marker({position: uluru, map: map});
 }
+
