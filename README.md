@@ -168,7 +168,10 @@ Websites reviewed and used during the creation of this project.
   - Used for choosing inital font for css @import
 
 - [W3Schools](https://www.w3schools.com/basic-syntax/)
-  - Reviewed and used frequently throughout the design of this poject. Specifically for the styling of the text over image.
+  - Reviewed and used frequently throughout the design of this project. Specifically for the styling of the text over image.
+
+- [W3C Markup Validation](https://validator.w3.org/)
+  - Validation testing
 
 #### Media Used 
 
