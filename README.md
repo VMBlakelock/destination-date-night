@@ -110,6 +110,8 @@ It is hoped in the future the website can add more Date Criteria such as additon
 
 Various testing was undertaken during the creation of this site including using the W3C Markup Validator. This validation check was ongoing throughout the project development.
 
+Below are a few various issues and bugs I found during the creation.
+
 #### Issue 1
 
 Footer 
@@ -119,8 +121,9 @@ Footer
 #### Issue 2
 
 Navbar
-- The Navbar was built following Bootstrap Navbar Documentation, however I wanted the navbar hamburger on the right instead of left on mobiles. After reviewing Bootstrap again I realised I had not added 'navbar-brand' to the nav html so I added this in. I also moved the entire 'a class' to above the 'button', this changed the position of the hamburger on mobiles.
+- The Navbar was built following Bootstrap Navbar Documentation, however I wanted the navbar hamburger on the right instead of left on mobiles. After reviewing Bootstrap again I realised I had not added 'navbar-brand' to the nav html so I added this in. I also moved the entire 'a' class to above the 'button', this changed the position of the hamburger on mobiles.
 
+- The .navbar-brand then gave me issues I couldnt get it to line up correctly after a few tests in Google Dev tools, I figured out that the marging needed a fix. I added a 0px margin-right and margin-left to the CSS class and that fixed the issue.
 #### Issue 3
 
 Background image
