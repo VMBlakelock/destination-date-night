@@ -29,10 +29,14 @@ body {
     font-size: 150%;
 }
 
-/*--background image--*/
+/*--hero-image--*/
 
 .padding {
     padding: 0px;
+}
+
+.ddn {
+    width: 100%;
 }
 
 
