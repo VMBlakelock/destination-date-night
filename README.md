@@ -60,6 +60,7 @@ The site will -
 #### Wireframes
 
 Desktop and Mobile wireframes were created to demonstrate the initial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
+There are a few slight adjustments from the wireframes but that was due to styling aesthetics.
 
 #### Mobile
 
@@ -67,7 +68,7 @@ The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe show
 
 #### Desktop
 
-The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look, the navbar here sits across the top of the page, text, interactivity dropdowns and Google Map all sit on top as the design is the sme as mobile.
+The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look, the navbar here sits across the top of the page, text, interactivity dropdowns and Google Map all sit on top as the design is the same as mobile.
 
 
 ### Surface 
