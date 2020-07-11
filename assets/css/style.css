@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +18,6 @@ body {
     background-color: #101316;
 }
 
-
 .navbar-brand  {
     font-size: 200%;
     margin-right: 0px;
@@ -29,43 +28,30 @@ body {
     font-size: 150%;
 }
 
-/*--hero-image--*/
+/*----hero-image-----*/
 
-.padding {
-    padding: 0px;
-}
-
-.ddn {
-    width: 100%;
-}
-
-
-/*--image container with text--*/
-
-        /*--code from w3schools--*/
-
-.container {
+.hero-image {
     position: relative;
-    text-align: left;
-    color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.centered {
+.hero-text {
     position: absolute;
-    top: 12%;
-    left: 25%;
-    transform: translate (-50%, -50%);
+    top: 20%;
+    left: 0%;
+    right:0%;
+    bottom:0%;
+    text-align: center;  
 }
 
-    /*--end of code from w3schools--*/
-
-
-.italic {
-    font-style: italic;
-    font-size: 25px;
+#italic {
+    font-style: italic
 }
 
-/*----Main Text-----*/
+
+/*----main text-----*/
 
 #the-dating-game  {
     font-size: 35px;
