@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:100,200,300,400,500,600,700');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-color: rgb(95, 79, 85);
@@ -14,9 +18,11 @@ body {
     background-color: #101316;
 }
 
-.navbar-font {
+
+.navbar-brand  {
     font-size: 200%;
-    margin: 12px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .nav-link-font {
