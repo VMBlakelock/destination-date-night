@@ -69,8 +69,6 @@ The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe show
 
 The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look, the navbar here sits across the top of the page, text, interactivity dropdowns and Google Map all sit on top as the design is the sme as mobile.
 
-*Wireframes note: The wireframes use the owners company name as vixwebmedia.co.uk whereas the actual site uses vixwebdesigns.co.uk an error on the designers side.*
-
 
 ### Surface 
 
