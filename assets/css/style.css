@@ -61,6 +61,22 @@ body {
     font-size: 25px;
 }
 
+/*----Main Text-----*/
+
+#the-dating-game  {
+    font-size: 35px;
+    color: #73a8f8;
+}
+
+#create-a-date {
+    font-size: 35px;
+    color: #73a8f8;
+}
+
+p {
+ font-size: 18px;   
+}
+
 /*-----google map-------*/
 
 #map {
