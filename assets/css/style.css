@@ -35,6 +35,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-right: 15px;
+    padding-left: 0px;
 }
 
 .hero-text {
@@ -47,7 +49,7 @@ body {
 }
 
 #italic {
-    font-style: italic
+    font-style: italic;
 }
 
 
