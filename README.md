@@ -108,7 +108,7 @@ It is hoped in the future the website can add more Date Criteria such as additon
 
 ## Testing
 
-Various testing was undertaken during the creation of this site including using the W3C Markup Validator. This validation check was ongoing throughout the project development.
+Various testing was undertaken during the creation of this site including different browser usage, various devices checks. Also the W3C Markup Validator, validation check was ongoing throughout the project development.
 
 Below are a few various issues and bugs I found during the creation.
 
@@ -122,26 +122,40 @@ Footer
 
 Navbar
 - The Navbar was built following Bootstrap Navbar Documentation, however I wanted the navbar hamburger on the right instead of left on mobiles. After reviewing Bootstrap again I realised I had not added 'navbar-brand' to the nav html so I added this in. I also moved the entire 'a' class to above the 'button', this changed the position of the hamburger on mobiles.
-
 - The .navbar-brand then gave me issues I couldnt get it to line up correctly after a few tests in Google Dev tools, I figured out that the marging needed a fix. I added a 0px margin-right and margin-left to the CSS class and that fixed the issue.
+
 #### Issue 3
 
-Background image
-- After adding a container to my background image, the image moved and I ended up with a offset margin to the left .........
+xxxxxxxx
 
 #### Issue 4
 
 IPAD
-- During the creation of this project getting it to be responsive on an IPAD proved challenging. ..............
+- The challenge was getting the IPAD to be responsive. In Google Dev Tools when I used the size markers and the responsive dropdown at the top, my tablet at 768 x 768 worked and was aligned. However when I used the IPAD template the size changed and was out of line.
+
+I tried to fix this but was unable to rectify. However by the end of the project this somehow fixed itself.
 
 #### Issue 5
 
-I realised by background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. .......
+I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. SoI changed the code. However I still have a padding space down the left side that I cannot fix.
 
 ### Browsers tested
 
 - Chrome, using Google Developer Tools
 
+### Devices tested
+
+Mobile:
+- Android - Samsung Galaxy A40
+- Android - Samsung Galaxy A20
+- Android - Samsung Galaxy S10
+- IOS - Iphone - xxxxx
+
+Laptop:
+- Toshiba Satellite C850
+
+Tablet:
+- xxxxxxx
 
 ## Deployment
 
@@ -168,12 +182,15 @@ If you want to run this project locally, we must clone the project for Github:
 
 ## Credits
 
+Personal credits go out to the following 
+- Spencer Barriball for the assistance in building Javascript functions, commented accordingly within the code.
+
 #### Websites reviewed
 
 Websites reviewed and used during the creation of this project.
 
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
-  - Used this website to refresh knowledge on how to use Markdown
+  - Used this website to refresh knowledge on how to use Markdown.
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
   - Used for choosing inital font for css @import
@@ -182,7 +199,13 @@ Websites reviewed and used during the creation of this project.
   - Reviewed and used frequently throughout the design of this project. Specifically for the styling of the text over image.
 
 - [W3C Markup Validation](https://validator.w3.org/)
-  - Validation testing
+  - Validation testing.
+  
+- [StackOverflow](https://stackoverflow.com/)
+  - Various research throughout.
+
+- [Bootstrap](https://getbootstrap.com/)
+  - Documentaton on Navabar and Modals.
 
  
 
@@ -190,7 +213,7 @@ Websites reviewed and used during the creation of this project.
 
 The Slack community for assisting me on my journey through this website.
 
-My mentor for providing excellent guidance and expertise to allow me to be confident i creating this site.
+My mentor for providing excellent guidance and expertise to allow me to be confident in developing this site.
 
 *created for education purposes only*
 
