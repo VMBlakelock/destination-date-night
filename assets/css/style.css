@@ -94,6 +94,12 @@ p {
     background-color: rgb(194, 25, 25)
 }
 
+.dropdown {
+    position: center;
+}
+
+
+
 /*-----google map-------*/
 
 #map {
@@ -115,4 +121,5 @@ p {
 
 .footer-spacing {
     padding-top: 20px;
+    margin-top: 20px;
 }

@@ -1,10 +1,13 @@
+// assistance from mentor
 
 function getDate() {
     let act = document.getElementById("activities");
+    let act_result = act.options[act.selectedIndex].value;
 }
 
 function getDate() {
     let city = document.getElementById("cities");
+    let city_result = city.options[city.selectedIndex].value;
 }
 
 
