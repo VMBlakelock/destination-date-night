@@ -25,7 +25,7 @@ The owner would like users of the website to -
 
 The owner would like the website design - 
 
-- To be sultry looking with colors to portay this.
+- To be sultry looking with colors to portray this.
 
 - To be one page with two easy to navigate sections. Section 1 - The Dating Game and Section 2 - Create A Date.
 
@@ -75,7 +75,9 @@ The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gi
 
 ## Features 
 
+
 ### Existing Features
+
 
 One webpage page: The site uses just one page. 
 
@@ -88,9 +90,15 @@ Google Maps:  xxxxxxx
 Social Media Links: Social Media icons are positioned in the footer information so to allow users to visit other Destination Date Night media.
 
 
+
 ### Future Features
 
-It is hoped in the future the website can add more Date Criteria such as additonal scenarios (ie Date Mood - romantic, thrilling, no pressure)
+
+It is hoped in the future the website can add more date critera, for example  - adding more cities and more date types ie clubbing, walking ect.
+
+Owner would like to add a gallery page to the site showcasing people on various dates.
+
+
 
 
 ## Technologies Used 
