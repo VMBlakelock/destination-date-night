@@ -1,3 +1,17 @@
+
+function getDate() {
+    let act = document.getElementById("activities");
+}
+
+function getDate() {
+    let city = document.getElementById("cities");
+}
+
+
+
+
+
+
 // code from google maps platform
 
 function initMap() {
@@ -9,4 +23,3 @@ function initMap() {
   // The marker, positioned at Uluru
   let marker = new google.maps.Marker({position: uluru, map: map});
 }
-
