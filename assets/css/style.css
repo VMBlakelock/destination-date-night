@@ -52,21 +52,29 @@ body {
     font-style: italic;
 }
 
+h4 {
+    font-size: 34px;
+}
+
+.hero-text-p {
+    font-size: 24px;   
+}
+
 
 /*----main text-----*/
 
-#the-dating-game  {
-    font-size: 35px;
+.text-the-dating-game  {
+    font-size: 45px;
     color: #73a8f8;
 }
 
-#create-a-date {
-    font-size: 35px;
+.text-create-a-date {
+    font-size: 45px;
     color: #73a8f8;
 }
 
 p {
- font-size: 18px;   
+    font-size: 20px;   
 }
 
 /*-----google map-------*/
