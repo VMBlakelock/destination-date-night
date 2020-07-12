@@ -77,6 +77,13 @@ p {
     font-size: 20px;   
 }
 
+/*-----interactivity section-------*/
+
+#activities {
+    font-size: 25px;
+    background-color: rgb(194, 25, 25)
+}
+
 /*-----google map-------*/
 
 #map {
