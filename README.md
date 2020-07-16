@@ -134,18 +134,20 @@ Navbar
 
 #### Issue 3
 
-xxxxxxxx
-
-#### Issue 4
-
 IPAD
 - The challenge was getting the IPAD to be responsive. In Google Dev Tools when I used the size markers and the responsive dropdown at the top, my tablet at 768 x 768 worked and was aligned. However when I used the IPAD template the size changed and was out of line.
 
 I tried to fix this but was unable to rectify. However by the end of the project this somehow fixed itself.
 
-#### Issue 5
+#### Issue 4
 
 I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. SoI changed the code. However I still have a padding space down the left side that I cannot fix.
+
+#### Issue 5
+
+If statement 
+- My first attempt at writing my if statement didnt work. I initially wrote using ==. After googling the difference between == and === operators, I realised this was my error. I needed the === operator so it would return true as both Dinner and Leeds needed to be true. However it still didnt work.
+
 
 ### Browsers tested
 
@@ -188,10 +190,14 @@ If you want to run this project locally, we must clone the project for Github:
 7. Press Enter. Your local clone is now created.
 
 
-## Credits
+## Credits and References
 
 Personal credits go out to the following 
 - Spencer Barriball for the assistance in building Javascript functions, commented accordingly within the code.
+
+References
+- [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
+    - The Codahoy website 2019 references: *' === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.'*
 
 #### Websites reviewed
 
