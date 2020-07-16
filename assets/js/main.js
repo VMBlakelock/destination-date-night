@@ -1,4 +1,4 @@
-// assistance from mentor
+// assistance from mentor 
 
 function getDate() {
     let act = document.getElementById("activities");
@@ -10,8 +10,11 @@ function getDate() {
     let city_result = city.options[city.selectedIndex].value;
 }
 
+// place date is going 
 
-
+if (act_result === "dinner" + city_result === "leeds") {
+    destination = "Nando's in Leeds City Centre";
+}
 
 
 
