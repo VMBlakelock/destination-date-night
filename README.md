@@ -148,7 +148,10 @@ I realised my background image wasnt responding well to responsive design. Not s
 If statement 
 - My first attempt at writing my if statement didnt work. I initially wrote using ==. After googling the difference between == and === operators, I realised this was my error. I needed the === operator so it would return true as both Dinner and Leeds needed to be true. However it still didnt work.
 
+#### Issue 6
 
+Google Map API 
+- Setting up the Google Map created 
 ### Browsers tested
 
 - Chrome, using Google Developer Tools

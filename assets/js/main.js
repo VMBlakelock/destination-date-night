@@ -40,3 +40,11 @@ function initMap() {
     zoom: 8
   });
 }
+
+
+
+// code for obfuscated version of my api key - from tutor support Tim. https://github.com/Code-Institute-Org/key-helper
+
+let API_KEY = "yourAPIkey";
+console.log(API_KEY.keyHelper());
+// Outputs "NehbllrxVC"
