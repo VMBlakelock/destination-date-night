@@ -73,8 +73,12 @@ The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gi
 
 ### Surface 
 
-## Features 
 
+
+
+
+
+## Features 
 
 ### Existing Features
 
@@ -106,6 +110,7 @@ Owner would like to add a gallery page to the site showcasing people on various 
 - html5
 - css3
 - Git
+- Javascript
 - [Bootstrap](https://getbootstrap.com/)
 - [Github](https://github.com/)
 - [Gitpod](https://gitpod.io/)
@@ -114,11 +119,13 @@ Owner would like to add a gallery page to the site showcasing people on various 
 - [W3C Markup Validation](https://validator.w3.org/)
 
 
+
 ## Testing
 
 Various testing was undertaken during the creation of this site including different browser usage, various devices checks. Also the W3C Markup Validator, validation check was ongoing throughout the project development.
 
 Below are a few various issues and bugs I found during the creation.
+
 
 #### Issue 1
 
@@ -136,12 +143,11 @@ Navbar
 
 IPAD
 - The challenge was getting the IPAD to be responsive. In Google Dev Tools when I used the size markers and the responsive dropdown at the top, my tablet at 768 x 768 worked and was aligned. However when I used the IPAD template the size changed and was out of line.
-
 I tried to fix this but was unable to rectify. However by the end of the project this somehow fixed itself.
 
 #### Issue 4
 
-I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. SoI changed the code. However I still have a padding space down the left side that I cannot fix.
+- I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. So I changed the code. However I still have a padding space down the left side that I cannot fix.
 
 #### Issue 5
 
@@ -151,7 +157,11 @@ If statement
 #### Issue 6
 
 Google Map API 
-- Setting up the Google Map created 
+- Setting up the Google Map created errors in the console. After trying to correct it by re reading Google Maps JS API documentation it was founf the issue was with the HTTP Referrer in the credentials section of the Google Cloud Platform.
+In order to rectify this I had to add various links to my github projects. My github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
+
+
+
 ### Browsers tested
 
 - Chrome, using Google Developer Tools
@@ -169,6 +179,8 @@ Laptop:
 
 Tablet:
 - xxxxxxx
+
+
 
 ## Deployment
 
@@ -193,14 +205,21 @@ If you want to run this project locally, we must clone the project for Github:
 7. Press Enter. Your local clone is now created.
 
 
+
 ## Credits and References
 
 Personal credits go out to the following 
 - Spencer Barriball for the assistance in building Javascript functions, commented accordingly within the code.
 
-References
+Web References
 - [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
     - The Codahoy website 2019 references: *' === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.'*
+
+Tutor Support
+- Tim from tutor support advised on a security issue I had during the creation of my Google Map JS Api. I was getting emails from Google saying my site was possible being comprimised. This was due to the API key being visable.
+Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created my Matt Rudge of Code Institute that would obfuscate my API key. I thought this was a great thing due to the added security to my site - therefore I decided to add it into my JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
+
+
 
 #### Websites reviewed
 
@@ -226,11 +245,15 @@ Websites reviewed and used during the creation of this project.
 
  
 
+
 ## Acknowledgements
 
 The Slack community for assisting me on my journey through this website.
 
 My mentor for providing excellent guidance and expertise to allow me to be confident in developing this site.
+
+Tutor support for my questions when I need a little extra assistance.
+
 
 *created for education purposes only*
 
