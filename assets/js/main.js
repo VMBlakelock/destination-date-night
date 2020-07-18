@@ -26,4 +26,15 @@ document.getElementById("result").innerHTML =
 "You have chosen " + act_result + " activity " + " in the city of " + city_result;
 
 document.getElementById("destination").innerHTML =
-"Your going to " + destination;
+"Your going to " + destination
+
+
+// google maps 
+
+let map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8
+  });
+}
