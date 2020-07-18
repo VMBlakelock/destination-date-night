@@ -1,4 +1,6 @@
 // assistance from mentor 
+let act_result ="";
+let city_result ="";
 
 function getDate() {
     let act = document.getElementById("activities");
