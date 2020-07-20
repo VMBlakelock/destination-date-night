@@ -4,11 +4,11 @@
 
 ## Aim
 
-To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create thier 'perfect date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
+To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create their 'perfect date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
 
 ## Purpose
 
-The owner of Destination Date Night wants to create fun website that allows users to interact with differing functionality. The user will select specified criteria from the two dropdown then click a button, this will in turn produce and outcome. The user can review this outcome in order to make a decision on where to go on their date.
+The owner of Destination Date Night wants to create fun website that allows users to interact using differing functionality. The user will select specified criteria from the two dropdown then click a button, this will in turn produce an outcome. The user can review this outcome in order to make a decision on where to go on their date.
 
 It is hoped that the users will find the website to be a fun and interesting way to gather ideas for a date. By using the search criteria offered and the results the site returns the user can plan a date that will suit their individual needs.
 
@@ -25,6 +25,7 @@ The owner would like users of the website to -
 -  Enjoy the site and use it as a useful tool to find ideas.
 
 -  Find the site is fun and simple to use.
+
 
 
 The owner would like the website design - 
