@@ -8,7 +8,7 @@ To create a fun interactive front end website that responds accordingly to the u
 
 ## Purpose
 
-The owner of Destination Date Night wants to create fun website that allows users to interact with differing functionlity. The user will select specified criteria from the two dropdown then click a button, this will in turn produce and outcome. The user can review this outcome in order to make a decision on where to go on their date.
+The owner of Destination Date Night wants to create fun website that allows users to interact with differing functionality. The user will select specified criteria from the two dropdown then click a button, this will in turn produce and outcome. The user can review this outcome in order to make a decision on where to go on their date.
 
 It is hoped that the users will find the website to be a fun and interesting way to gather ideas for a date. By using the search criteria offered and the results the site returns the user can plan a date that will suit their individual needs.
 
@@ -55,56 +55,68 @@ The site will -
 4. Link to external social media sites.
 5. Will have contact details - location and email address of Destination Date Night HQ.
 
+
 ### Potential client
 
-As a potential user would of this site, the user would -
+As a potential user of this site, the user would -
 
  - Discover what Destination Date Night is, how it works and what it reveals.
- - See a brand that is draws users in and then after interacting entices users to find out more.
- - Find its USP (unique selling point) is its uniqueness. During research I was unaware of a site like this.
+ - See a brand that draws users in and then after user interaction entices users to find out more.
+ - Find its USP (unique selling point) is its uniqueness. During research the owner was unaware of a site like this.
  - Understand what service it offers
  - Be encouraged to find out more about the brand and company by clicking links to socia media pages.
  - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
 
-Future features of Destination Date Night could include - 
-
-- Have a larger criteria and more diverse date ideas.
-- To view a gallery of past dates at various locations.
-- Read testimonials and success stories from users of the site.
-- To read a Destination Date Night blog.
-- To be able to call the chosen date location direct from the site.
-- Check the weather at the chosen locotion, with 1 day or 10 day outlook.
-- Order branded Destination Date Night merchandise via an e commerce shop.
 
 ## 5 Planes
 
 ### Strategy
 
-- Destination Date Night is 
+- Destination Date Night is currently a simple fun interactivie website. It allows simple usage to provide a fun factor for idea gathering. It features the 3 core languages of web development HTML, CSS and Javascript and Google Maps JS API as its main feature. 
+
+- There is a clear brand (although no logo as of yet) and a company philosophy of "Making Memories" whilst incorporating this the fun factor was required to be a major part of the content.
+
+- Destination Date Night has the potential of not only being a popular fun idea gathering site for current users, it potentially has the power to become a thriving buisness site. As mentioned by adding a few addtional features to the site and marketing well. Destination Date night could be something with a decent ROI.
+
+- During research I was unable to find any other sites that had the same 'making memories' concept within a simple game like page making Destination Dte Night a niche. 
+
 
 ### Scope 
 
+- The site was developed with simplicity in mind. It was scoped to provide a straight forward approach, the user was to click a few dropdowns and a button and the site would produce an outcome. The Google Map JS API was to be the prime feature.
+
+
 ### Structure
+
+- Destination Date Nights site structure was to be simple. A one page site that draws in the user with a straightforward scroll. An eyecatching hero image and little enticing text to invite the user to see more.  
+
+- The site has 5 areas, Nav bar, Hero Image, 2 main sections with descriptive text and interactivity and a footer. It is hoped the user would be drawn into the site with by the brand design, color, image and text.
+
 
 ### Skeleton
 
 #### Wireframes
 
 Desktop and Mobile wireframes were created to demonstrate the initial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
-There are a few slight adjustments from the wireframes but that was due to styling aesthetics.
 
-#### Mobile
+##### Mobile
 
-The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe shows a view were all of the features sit on top of each other in a responsive manner. For example the navbar utilises the hamburger icon add is positioned on the right, the criteria dropdowns and Google Map is central and the footer information sits underneath.
+The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe shows a view were all of the features sit on top of each other in a responsive manner. For example the navbar utilises the hamburger icon and is positioned on the right, the criteria dropdowns, button are central. The Google Map is the main sections focal point and the footer information sits underneath.
 
-#### Desktop
+##### Desktop
 
 The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look, the navbar here sits across the top of the page, text, interactivity dropdowns and Google Map all sit on top as the design is the same as mobile.
+
+There are a few slight adjustments from the wireframes this was due mainly to styling aesthetics. Having text screen wide made the site look bulky and messy it needed some blank areas to clean it up, However the desktop site needed the Google map to be screen wide to keep in users eyeline.
+Also it was realised that the HTML buttons
 
 
 ### Surface 
 
+Colors and fonts where important to the website to promote a sultry, tempting, feel good reaction.
+The site's "evening" colors of greys and blues where selected.
 
+Users will see that Destination Date Night is aiming for a luxurious look. However the owner doesnt feel its quite there on submission.
 
 
 
@@ -114,13 +126,17 @@ The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gi
 ### Existing Features
 
 
-One webpage page: The site uses just one page. 
+One webpage page: The site uses just one page with a simple scroll movement. 
 
-Navbar: The navbar is responsive and links to only two of the main sections The Dating Game and Create A Date.
+Navbar: The navbar is responsive and links to both of the main sections The Dating Game and Create A Date.
 
-Dropdowns: The two dropdowns are defined with an individual title, Date Type, Date Location. The dropdown when clicked reveals specified criteria to select.
+Dropdowns: The two dropdowns have specific criteria built in, a Date Type and a Date Location. The dropdown when clicked reveals specified criteria to select.
+
+Button: The button when clicked reveals the date providing a neat feature to the site.
 
 Google Maps:  xxxxxxx
+
+Hyperlink: There is a hyyperlink at the bottom of the map to take people back to the site top.
 
 Social Media Links: Social Media icons are positioned in the footer information so to allow users to visit other Destination Date Night media.
 
@@ -128,12 +144,15 @@ Social Media Links: Social Media icons are positioned in the footer information 
 
 ### Future Features
 
+Future features of Destination Date Night could include - 
 
-It is hoped in the future the website can add more date critera, for example  - adding more cities and more date types ie clubbing, walking ect.
-
-Owner would like to add a gallery page to the site showcasing people on various dates.
-
-
+- Having a larger criteria library and more diverse date ideas.
+- An image gallery of past dates at various locations.
+- Testimonials and success stories from users of the site.
+- A Destination Date Night blog.
+- Being able to call the chosen date location direct from the site.
+- An area to check the weather at the chosen location, with 1 day or 10 day outlook.
+- An e commerce shop where users could order branded Destination Date Night merchandise.
 
 
 ## Technologies Used 
