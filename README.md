@@ -4,13 +4,13 @@
 
 ## Aim
 
-To create an interactive front end website that responds accordingly to the users actions. This website is designed so users can select dropdown criteria to create their perfect date.
+To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create thier 'perfect date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
 
 ## Purpose
 
-The owner of Destination Date Night wants to create website that allows users to select criteria from a dropdown that presents an outcome for them to review in order to make decisions on where to go on their date.
+The owner of Destination Date Night wants to create fun website that allows users to interact with differing functionlity. The user will select specified criteria from the two dropdown then click a button, this will in turn produce and outcome. The user can review this outcome in order to make a decision on where to go on their date.
 
-It is hoped that the users will find ideas using the search criteria offered and the results the site returns.
+It is hoped that the users will find the website to be a fun and interesting way to gather ideas for a date. By using the search criteria offered and the results the site returns the user can plan a date that will suit their individual needs.
 
 ## UX
 
@@ -20,36 +20,67 @@ It is hoped that the users will find ideas using the search criteria offered and
 
 The owner would like users of the website to - 
 
--  Interact with the site to find their perfect date location.
+-  Interact with the site to find their perfect date.
+
+-  Enjoy the site and use it as a useful tool to find ideas.
+
+-  Find the site is fun and simple to use.
 
 
 The owner would like the website design - 
 
-- To be sultry looking with colors to portray this.
+- To be sultry looking with colors and a theme that portrays this.
+
+- To have a hero image that creates mystery and excitment.
 
 - To be one page with two easy to navigate sections. Section 1 - The Dating Game and Section 2 - Create A Date.
 
-- To have a Navigation Bar that links to the sections when clicked.
+- To have a navigation bar that links to the sections when clicked.
 
-- To house criteria dropdowns that can be selected.
+- To house dropdowns with specified criteria that can be selected.
 
-- To use Google Maps API to place a marker in locations based on the users criteria.
+- To have a button that when clicked reveals and output.
+
+- To use the Google Maps JS API to place a marker in locations based on the users criteria.
 
 - To have a footer containing social media icons.
 
-- To include contact details.
+- To include company contact details.
 
 The site will -
 
 1. Have three main sections, the first a hero image with text enticing the user to look further, the second will be a querky narrative explaining the site, the third will house the interactivity.
 2. Explain the websites outcome by instructing how it is to be used.
-3. Based on criteria selected link to Google Maps where markers will pop up based on user selection. 
+3. Based on criteria selected, link to the Google Maps JS API where markers will pop up based on user selection. 
 4. Link to external social media sites.
-5. Will have a contact details - location and email address of Destination Date Night HQ.
+5. Will have contact details - location and email address of Destination Date Night HQ.
+
+### Potential client
+
+As a potential user would of this site, the user would -
+
+ - Discover what Destination Date Night is, how it works and what it reveals.
+ - See a brand that is draws users in and then after interacting entices users to find out more.
+ - Find its USP (unique selling point) is its uniqueness. During research I was unaware of a site like this.
+ - Understand what service it offers
+ - Be encouraged to find out more about the brand and company by clicking links to socia media pages.
+ - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
+
+Future features of Destination Date Night could include - 
+
+- Have a larger criteria and more diverse date ideas.
+- To view a gallery of past dates at various locations.
+- Read testimonials and success stories from users of the site.
+- To read a Destination Date Night blog.
+- To be able to call the chosen date location direct from the site.
+- Check the weather at the chosen locotion, with 1 day or 10 day outlook.
+- Order branded Destination Date Night merchandise via an e commerce shop.
 
 ## 5 Planes
 
 ### Strategy
+
+- Destination Date Night is 
 
 ### Scope 
 
