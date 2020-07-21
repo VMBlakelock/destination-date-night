@@ -80,23 +80,32 @@ p {
 
 #activities {
     font-size: 25px;
+    border-radius: 10px;
     background-color: rgb(194, 25, 25)
 }
 
 #cities {
     font-size: 25px;
+    border-radius: 10px;
     background-color: rgb(194, 25, 25)
 }
 
 #button {
     font-size: 25px;
-    background-color: rgb(194, 25, 25)
+    border-radius: 10px;
+    box-shadow: grey;
+    background-color: rgb(194, 25, 25);
 }
 
 .dropdown {
     position: center;
+    
 }
 
+#destination {
+    border-bottom-width: 20px;
+    margin-bottom: 50px;
+}
 
 
 /*-----google map-------*/
@@ -104,8 +113,8 @@ p {
 #map {
    width: 100%;
    height: 400px;
-   background-color: grey;
  }
+
 
 /*-----footer-------*/
 
@@ -118,7 +127,4 @@ p {
     margin: 20px;
 }
 
-.footer-spacing {
-    padding-top: 20px;
-    margin-top: 20px;
-}
+

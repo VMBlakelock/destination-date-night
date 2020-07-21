@@ -25,10 +25,11 @@ if (act_result === "dinner" && city_result === 'london') {
 }
 
 document.getElementById("result").innerHTML =
-"You have chosen " + act_result + " activity " + " in the city of " + city_result;
+"You have chosen " + act_result + " activity " + "in the city of " + city_result;
 
 document.getElementById("destination").innerHTML =
-"Your going to " + destination
+"Your going to " + destination;
+
 
 
 // google maps 
@@ -36,11 +37,10 @@ document.getElementById("destination").innerHTML =
 let map;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8
+    zoom: 5,
+    center: { lat: 54.230956, lng: -8.9539 }
   });
 }
-
 
 
 // code for obfuscated version of my api key - from tutor support Tim. https://github.com/Code-Institute-Org/key-helper
