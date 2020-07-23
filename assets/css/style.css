@@ -34,8 +34,8 @@ body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-right: 0px;
-    padding-left: 0px;
+    margin-top: 20px;
+    overflow: hidden;
 }
 
 .hero-text {
@@ -65,48 +65,56 @@ h4 {
 .text-the-dating-game  {
     font-size: 45px;
     color: #73a8f8;
+    margin-top: 50px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .text-create-a-date {
     font-size: 45px;
     color: #73a8f8;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 p {
     font-size: 18px;   
 }
 
+h1 {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
 /*-----interactivity section-------*/
 
 #activities {
-    font-size: 25px;
+    font-size: 50px;
     border-radius: 10px;
-    background-color: rgb(194, 25, 25)
+    background-color: rgb(86, 88, 202);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;   
 }
 
 #cities {
-    font-size: 25px;
+    font-size: 50px;
     border-radius: 10px;
-    background-color: rgb(194, 25, 25)
+    background-color: rgb(86, 88, 202);  
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;   
 }
 
 #button {
-    font-size: 25px;
+    font-size: 50px;
     border-radius: 10px;
-    box-shadow: grey;
-    background-color: rgb(194, 25, 25);
+    background-color:  rgb(86, 88, 202);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-.dropdown {
-    position: center;
-    
+#result {
+   border-bottom-width: 20px;
+   margin-bottom: 50px; 
 }
 
 #destination {
     border-bottom-width: 20px;
     margin-bottom: 50px;
 }
-
 
 /*-----google map-------*/
 
@@ -125,6 +133,11 @@ p {
 #bold {
     font-weight: bold;
     margin: 20px;
+    text-shadow: 2px 2px rgb(84, 89, 95);
+}
+
+.shadow{
+    text-shadow: 2px 2px rgb(84, 89, 95);
 }
 
 

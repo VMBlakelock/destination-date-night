@@ -47,10 +47,10 @@
 
 	<section>
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row row-no-gutters">
 				<div class="col-sm-12">
 					<div class="hero-image">
-						<img src="assets/images/images_cityscape.jpeg" alt="cityscape"/>
+						<img src="assets/images/cityscape.jpg" alt="cityscape"/>
 						<div class="hero-text" id="italic">
 							<h4>The Perfect Date</h4>
 							<p class="hero-text-p">A romantic dinner, a walk in the park. Whatever your perfect date use Destination Date Night!</p>
@@ -96,10 +96,7 @@
 		</div>
 	</section>
 
-
 	<br>
-	<br>
-
 	<!--create a date-->
 
 	<section>
@@ -121,22 +118,22 @@
 
 				<!--dropdowns-->
 
-		<select class="dropdown" id="activities">
-                <option class="dropdown-item" value="dinner">Dinner</option>
+		<select id="activities">
                 <option class="dropdown-item" value="activity">Activity</option>
+                <option class="dropdown-item" value="dinner">Dinner</option>
                 <option class="dropdown-item" value="romance">Romance</option>
     </select>
 
-	    <select class="dropdown" id="cities">
-                <option class="dropdown-item" value="leeds">Leeds</option>
+	    <select id="cities">
                 <option class="dropdown-item" value="manchester">Manchester</option>
+                <option class="dropdown-item" value="leeds">Leeds</option>
                 <option class="dropdown-item" value="london">London</option> 
     </select>
 
 				<!--button-->
 
-				<button type="button" id="button" class="dropdown" onclick="getDate()">Create a date</button>
-
+				<button type="button" id="button" onclick="getDate()">Create a date</button>
+                
 				<h2 id="result">Please select criteria</h2>
                 <h1 id="destination">Where is your date!</h1>
 			</div>
@@ -150,7 +147,6 @@
 			<div class="row">
 				<div class="col-sm-12">
                 <h3>Destination Date Night</h3>
-
 
 					<!--the div element for the map -->
 
@@ -166,19 +162,19 @@
 
 	<!--footer-->
 
-	<footer class="container-fluid footer-background footer-spacing">
+	<footer class="container-fluid footer-background">
 		<div class="row">
 			<div class="col-sm-12 col-md-4">
 				<a class="fas fa-address-book"></a>
-				<p>Destination Date Night</p>
-				<p>(44) 1472 659-598</p>
-				<p>Email: info@destination-date-night.com</p>
+				<p class="shadow">Destination Date Night</p>
+				<p class="shadow">(44) 1472 659-598</p>
+				<p class="shadow">Email: info@destination-date-night.com</p>
 			</div>
 
 			<div class="col-sm-12 col-md-4">
 				<a class="fas fa-map-marker-alt"></a>
-				<p>Grimsby, NE Lincs</p>
-				<p>United Kingdom</p>
+				<p class="shadow">Grimsby, NE Lincs</p>
+				<p class="shadow">United Kingdom</p>
 			</div>
 
 			<div class="col-sm-12 col-md-4">

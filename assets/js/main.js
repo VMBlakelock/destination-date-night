@@ -14,14 +14,18 @@ let destination ='';
 
 // place date is going 
 
-if (act_result === "dinner" && city_result === 'leeds') {
-    destination = "Nando's in Leeds City Centre";
-}
-if (act_result === "dinner" && city_result === 'manchester') {
+if (act_result === "dinner" && city_result === "manchester") {
     destination = "McDonald's in Manchester City Centre";
 }
-if (act_result === "dinner" && city_result === 'london') {
+if (act_result === "dinner" && city_result === "leeds") {
+    destination = "Nando's in Leeds City Centre";
+}
+if (act_result === "dinner" && city_result === "london") {
     destination = "Gordon Ramsay's Bread Street Kitchen in London";
+}
+
+if (act_result === "activity" && city_result === "leeds") {
+    destination = "Mud race in Leeds City Center";
 }
 
 document.getElementById("result").innerHTML =
