@@ -59,13 +59,13 @@ h4 {
     font-size: 45px;
     color: #73a8f8;
     margin-top: 30px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 3px rgb(14, 13, 13), 0 0 5px #0000FF;
 }
 
 .text-create-a-date {
     font-size: 45px;
     color: #73a8f8;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 3px rgb(14, 13, 13), 0 0 5px #0000FF;
 }
 
 p {
@@ -73,7 +73,7 @@ p {
 }
 
 h1 {
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 3px rgb(14, 13, 13), 0 0 5px #0000FF;
 }
 
 /*-----interactivity section-------*/
@@ -82,21 +82,19 @@ h1 {
     font-size: 50px;
     border-radius: 10px;
     background-color: rgb(86, 88, 202);
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;   
+    
 }
 
 #cities {
     font-size: 50px;
     border-radius: 10px;
     background-color: rgb(86, 88, 202);  
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;   
 }
 
 #button {
     font-size: 50px;
     border-radius: 10px;
     background-color:  rgb(86, 88, 202);
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 #result {
@@ -116,6 +114,11 @@ h1 {
    height: 400px;
 }
 
+/*-----hyperlink-------*/
+
+.hyperlink {
+ color:  #101316;  
+}
 
 /*-----footer-------*/
 
