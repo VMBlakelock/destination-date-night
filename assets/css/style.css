@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: rgba(78, 70, 73, 0.795);
-    color: rgb(255, 255, 255);
+    background-color: rgba(78, 70, 73, 0.856);
+    color: rgb(12, 12, 12);
     font-family: "oswald", sans-serif;
     text-align: center;
 }
@@ -28,7 +28,17 @@ body {
     font-size: 150%;
 }
 
+
+.img {
+    width: 1600px;
+    height: 500px;
+}
+
 /*-----intro-text------*/
+
+#intro-background {
+    background-color: #101316;
+}
 
 #italic {
     font-style: italic;
@@ -36,55 +46,58 @@ body {
 
 h4 {
     font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+#padding-top {
+    padding: 20px;
 }
 
 .intro-text-p {
-    font-size: 24px;   
+    font-size: 24px;
+    color: rgb(255, 255, 255);
 }
+
 
 
 /*----main text-----*/
 
 .text-the-dating-game  {
     font-size: 45px;
-    color: #73a8f8;
     margin-top: 30px;
-    text-shadow: 0 0 3px rgb(14, 13, 13), 0 0 5px #0000FF;
 }
 
 .text-create-a-date {
     font-size: 45px;
-    color: #73a8f8;
-    text-shadow: 0 0 3px rgb(14, 13, 13), 0 0 5px #0000FF;
 }
 
 p {
     font-size: 18px;   
 }
 
-h1 {
-    text-shadow: 0 0 3px rgb(14, 13, 13), 0 0 5px #0000FF;
+.far {
+    color: rgb(255, 255, 255);
 }
 
 /*-----interactivity section-------*/
 
+
 #activities {
     font-size: 50px;
     border-radius: 10px;
-    background-color: rgb(86, 88, 202);
+    background-color:  rgb(255, 255, 255);
     
 }
 
 #cities {
     font-size: 50px;
     border-radius: 10px;
-    background-color: rgb(86, 88, 202);  
+    background-color:  rgb(255, 255, 255);
 }
 
 #button {
     font-size: 50px;
     border-radius: 10px;
-    background-color:  rgb(86, 88, 202);
 }
 
 #result {
@@ -114,6 +127,7 @@ h1 {
 
 .footer-background {
     background-color: #101316;
+    color: rgb(255, 255, 255);
 }  
 
 #bold {
