@@ -28,6 +28,7 @@ body {
     font-size: 150%;
 }
 
+/*-----img sizing------*/
 
 .img {
     width: 1600px;
@@ -38,6 +39,8 @@ body {
 
 #intro-background {
     background-color: #101316;
+     width: 1600px;
+     height: 260px;
 }
 
 #italic {
@@ -49,16 +52,18 @@ h4 {
     color: rgb(255, 255, 255);
 }
 
-#padding-top {
-    padding: 20px;
-}
-
 .intro-text-p {
     font-size: 24px;
     color: rgb(255, 255, 255);
 }
 
+.text-1{
+    text-align: center;
+}
 
+.text-2{
+    text-align: left;
+}
 
 /*----main text-----*/
 
@@ -128,7 +133,9 @@ p {
 .footer-background {
     background-color: #101316;
     color: rgb(255, 255, 255);
-}  
+    width: 1600px;
+    height: 150px;
+}
 
 #bold {
     font-weight: bold;
