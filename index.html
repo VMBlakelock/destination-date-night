@@ -7,9 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <script src="https://code-institute-org.github.io/key-helper/helper.js"></script>
-    <script src="assets/js/main.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://code-institute-org.github.io/key-helper/helper.js"></script>
+	<script src="assets/js/main.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Destination Date Night</title>
 </head>
 
@@ -39,7 +39,7 @@
 						<a class="nav-link nav-link-font" href="#create_a_date">Create A Date</a>
 					</li>
 				</ul>
-                </div>
+			</div>
 		</nav>
 	</header>
 
@@ -47,31 +47,33 @@
 
 	<section>
 		<div class="container-fluid">
-        <div class="row">
+			<div class="row">
 				<div class="col-sm-12">
 					<div>
 						<img src="assets/images/cityscape.jpg" alt="cityscape"/>
 					</div>
+					</div>
 				</div>
 			</div>
-            </div>
 	</section>
 
-<section>
-<div class="container-fluid">
+	<section>
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
-    <div class="intro-text" id="italic">
-			<h4>The Perfect Date</h4>
-		<p class="intro-text-p">A romantic dinner, a walk in the park. Whatever your perfect date use Destination Date Night!</p>
-				<br>
-			<h4>Make it a memory to remember</h4>
-		<p class="intro-text-p">Use Destination Date Night to create something special that will be a memory forever. </p>
-    </div>
-    </div>
-    </div>
-    </div>
-</section>
+					<div class="intro-text" id="italic">
+						<h4>The Perfect Date</h4>
+						<p class="intro-text-p">A romantic dinner, a walk in the park. Whatever your perfect date use
+							Destination Date Night!</p>
+						<br>
+						<h4>Make it a memory to remember</h4>
+						<p class="intro-text-p">Use Destination Date Night to create something special that will be a
+							memory forever. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!--the dating game-->
 
@@ -80,12 +82,12 @@
 			<div class="row">
 				<div class="col-sm-12">
 
-                
 					<h2 class="text-the-dating-game" id="the_dating_game">The Dating Game</h2>
-					<p>Finally after months of cat and mouse, social media messaging and super cool glances - They said yes!
+					<p>Finally after months of cat and mouse, social media messaging and super cool glances - They said
+						yes!</p>
 						<br>
 						<br>
-                        Now its time to woo them with the "Perfect Date and make a Memory To Remember!".</p>
+                        <p>Now its time to woo them with the "Perfect Date and make a Memory To Remember!".</p>
 
 						<p><i class="far fa-comments fa-2x"></i> Where should we go?
 							<i class="far fa-comments fa-2x"></i> I want to impress?
@@ -122,18 +124,19 @@
 	<!--interactive section-->
 
 	<section>
-		<div class="row">
-			<div class="col-sm-12">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
 
 				<!--dropdowns-->
 
-		<select id="activities">
+				<select id="activities">
                 <option class="dropdown-item" value="activity">Activity</option>
                 <option class="dropdown-item" value="dinner">Dinner</option>
                 <option class="dropdown-item" value="romance">Romance</option>
     </select>
 
-	    <select id="cities">
+				<select id="cities">
                 <option class="dropdown-item" value="manchester">Manchester</option>
                 <option class="dropdown-item" value="leeds">Leeds</option>
                 <option class="dropdown-item" value="london">London</option> 
@@ -142,10 +145,11 @@
 				<!--button-->
 
 				<button type="button" id="button" onclick="getDate()">Create a date</button>
-                
+
 				<h2 id="result">Please select criteria</h2>
-                <h1 id="destination">Where is your date!</h1>
+				<h1 id="destination">Where is your date!</h1>
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -155,7 +159,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
-                <h3>Destination Date Night</h3>
+					<h3>Destination Date Night</h3>
 
 					<!--the div element for the map -->
 
@@ -165,9 +169,9 @@
 		</div>
 	</section>
 
-    <!--hyperlink-->
+	<!--hyperlink-->
 
-        <a class="hyperlink" href="#back_to_top">Back to top</a>
+	<a class="hyperlink" href="#back_to_top">Back to top</a>
 
 	<!--footer-->
 
@@ -200,10 +204,9 @@
 
 	<!--google map script-->
 
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-S8-r0rhpBzYWOy6AsPsIExTdP5Bl8sU&callback=initMap&libraries=&v=weekly"
-      async defer
-    ></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-S8-r0rhpBzYWOy6AsPsIExTdP5Bl8sU&callback=initMap&libraries=&v=weekly"
+		async defer></script>
 
 	<!--bootstrap js, popper cdn scripts-->
 
