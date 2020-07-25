@@ -28,16 +28,6 @@ body {
     font-size: 150%;
 }
 
-/*----hero-image-----*/
-
-.hero-image {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px;
-    overflow: hidden;
-}
-
 /*-----intro-text------*/
 
 #italic {
