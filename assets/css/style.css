@@ -81,21 +81,18 @@ p {
 
 
 #activities {
-    font-size: 50px;
-    border-radius: 10px;
+    font-size: 30px;
     background-color:  rgb(255, 255, 255);
     
 }
 
 #cities {
-    font-size: 50px;
-    border-radius: 10px;
+    font-size: 30px;
     background-color:  rgb(255, 255, 255);
 }
 
 #button {
-    font-size: 50px;
-    border-radius: 10px;
+    font-size: 30px;
 }
 
 #result {
