@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgba(78, 70, 73, 0.856);
+    background-color: rgba(12, 46, 78, 0.856);
     color: rgb(12, 12, 12);
     font-family: "oswald", sans-serif;
     text-align: center;
@@ -61,6 +61,7 @@ h4 {
 
 
 /*----main text-----*/
+
 
 .text-the-dating-game  {
     font-size: 45px;

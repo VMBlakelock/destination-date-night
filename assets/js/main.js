@@ -36,15 +36,13 @@ document.getElementById("destination").innerHTML = `Your going to ${destination}
 
 // google maps 
 
-let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 5,
     center: { lat: 54.230956, lng: -8.9539 }
   });
-new google.maps.Marker({
-    position: myLatLng,
+new google.maps.Marker({position: myLatLng,
     map,
     title: "Hello World!"
   });
