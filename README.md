@@ -115,9 +115,9 @@ Also it was realised that the HTML buttons
 ### Surface 
 
 Colors and fonts where important to the website to promote a sultry, tempting, feel good reaction.
-The site's "evening" colors of greys and blues where selected.
+The site's "evening" colors of greys and black where therefore selected.
 
-Users will see that Destination Date Night is aiming for a luxurious look. However the owner doesnt feel its quite there on submission.
+Users will see that Destination Date Night is aiming for a luxurious look. The Hero image provides that instant attraction.
 
 
 
@@ -127,19 +127,19 @@ Users will see that Destination Date Night is aiming for a luxurious look. Howev
 ### Existing Features
 
 
-One webpage page: The site uses just one page with a simple scroll movement. 
+One webpage page: The site uses just one page with a simple scroll movement this will provide ease of use. 
 
-Navbar: The navbar is responsive and links to both of the main sections The Dating Game and Create A Date.
+Navbar: The navbar is responsive and links to both of the main sections The Dating Game and Create A Date, simple navigation was a key factor.
 
 Dropdowns: The two dropdowns have specific criteria built in, a Date Type and a Date Location. The dropdown when clicked reveals specified criteria to select.
 
-Button: The button when clicked reveals the date providing a neat feature to the site.
+Button: The button when clicked reveals the date chosen this provides a neat feature to the site.
 
-Google Maps:  xxxxxxx
+Google Maps:  The Google Map API adds value by showcasing the date destinations with a marker.
 
-Hyperlink: There is a hyyperlink at the bottom of the map to take people back to the site top.
+Hyperlink: There is a hyperlink at the bottom of the map to take people back to the site top.
 
-Social Media Links: Social Media icons are positioned in the footer information so to allow users to visit other Destination Date Night media.
+Social Media Links: Social Media icons are positioned in the footer, so to allow users to visit other Destination Date Night media.
 
 
 
@@ -188,7 +188,7 @@ Footer
 
 Navbar
 - The Navbar was built following Bootstrap Navbar Documentation, however I wanted the navbar hamburger on the right instead of left on mobiles. After reviewing Bootstrap again I realised I had not added 'navbar-brand' to the nav html so I added this in. I also moved the entire 'a' class to above the 'button', this changed the position of the hamburger on mobiles.
-- The .navbar-brand then gave me issues I couldnt get it to line up correctly after a few tests in Google Dev tools, I figured out that the marging needed a fix. I added a 0px margin-right and margin-left to the CSS class and that fixed the issue.
+- The .navbar-brand then gave me issues I couldnt get it to line up correctly after a few tests in Google Dev tools, I figured out that the margin needed a fix. I added a 0px margin-right and margin-left to the CSS class and that fixed the issue.
 
 #### Issue 3
 
@@ -198,7 +198,7 @@ I tried to fix this but was unable to rectify. However by the end of the project
 
 #### Issue 4
 
-- I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. So I changed the code. However I still have a padding space down the left side that I cannot fix.
+- I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. 
 
 #### Issue 5
 
@@ -260,14 +260,14 @@ If you want to run this project locally, we must clone the project for Github:
 ## Credits and References
 
 Personal credits go out to the following 
-- Spencer Barriball for the assistance in building Javascript functions, commented accordingly within the code.
+- Spencer Barriball for the assistance and guidance in the building of Javascript functions, commented accordingly within the code.
 
 Web References
 - [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
     - The Codahoy website 2019 references: *' === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.'*
 
 Tutor Support
-- Tim from tutor support advised on a security issue I had during the creation of my Google Map JS Api. I was getting emails from Google saying my site was possible being comprimised. This was due to the API key being visable.
+- Tim from tutor support advised on a security issue I had during the creation of my Google Map JS API. I was getting emails from Google saying my site was possible being comprimised. This was due to the API key being visable.
 Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created my Matt Rudge of Code Institute that would obfuscate my API key. I thought this was a great thing due to the added security to my site - therefore I decided to add it into my JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
 
 

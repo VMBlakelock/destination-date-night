@@ -38,9 +38,11 @@ body {
 /*-----intro-text------*/
 
 #intro-background {
-    background-color: #101316;
+     background-color: #101316;
      width: 1600px;
      height: 260px;
+     text-align: left;
+     padding-top: 25px;
 }
 
 #italic {
@@ -73,7 +75,7 @@ p {
     font-size: 18px;   
 }
 
-.far {
+.icon {
     color: rgb(255, 255, 255);
 }
 
@@ -124,7 +126,7 @@ p {
     background-color: #101316;
     color: rgb(255, 255, 255);
     width: 1600px;
-    height: 150px;
+    text-align: left;
 }
 
 #bold {
