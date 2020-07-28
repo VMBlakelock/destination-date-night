@@ -8,7 +8,7 @@ function getDate(){
 
   let city = document.getElementById("cities");
   let city_result = city.options[city.selectedIndex].value;
-}
+
 let destination ='';
 
 // place date is going 
@@ -25,13 +25,34 @@ if (act_result === "dinner" && city_result === "london") {
     destination = "Gordon Ramsay's Bread Street Kitchen in London";
 }
 
-if (act_result === "activity" && city_result === "leeds") {
-    destination = "Mud race in Leeds City Center";
+if (act_result === "activity" && city_result === 'manchester') {
+    destination = "Paint Balling in Manchester City Centre";
 }
 
-document.getElementById("result").innerHTML = `You have chosen ${act_result}activity in the city of ${city_result}`;
+if (act_result === "activity" && city_result === "leeds") {
+    destination = "To a Mud Race in Leeds City Centre";
+}
 
-document.getElementById("destination").innerHTML = `Your going to ${destination}`;
+if (act_result === "activity" && city_result === "london") {
+    destination = "To play Indoor Crazy Golf in London";
+}
+
+if (act_result === "romance" && city_result === "manchester") {
+    destination = "Poetry Corner at Manchester Metropolitan University";
+}
+
+if (act_result === "romance" && city_result === "leeds") {
+    destination = " To the Drawing Club in Leeds City Centre";
+}
+
+if (act_result === "romance" && city_result === "manchester") {
+    destination = " To the National History Museum in London";
+}
+
+
+document.getElementById("result").innerHTML = `You have chosen an ${act_result} in the city of ${city_result}`;
+
+document.getElementById("destination").innerHTML = `Your going ${destination}`;
 
 
 // google maps 
@@ -47,9 +68,9 @@ new google.maps.Marker({position: myLatLng,
     title: "Hello World!"
   });
 }
-
 // code for obfuscated version of my api key - from tutor support Tim. https://github.com/Code-Institute-Org/key-helper
 
 let API_KEY = "yourAPIkey";
 console.log(API_KEY.keyHelper());
 // Outputs "NehbllrxVC"
+}
