@@ -26,34 +26,34 @@ if (act_result === "dinner" && city_result === "london") {
 }
 
 if (act_result === "activity" && city_result === 'manchester') {
-    destination = "Paint Balling in Manchester City Centre";
+    destination = "to Manchester Paint Ball Arena in Oldham, Manchester";
 }
 
 if (act_result === "activity" && city_result === "leeds") {
-    destination = "to a Mud Race in Leeds City Centre";
+    destination = "to Go Ape in Temple Newsam near Leeds";
 }
 
 if (act_result === "activity" && city_result === "london") {
-    destination = "to play Indoor Crazy Golf in London";
+    destination = "to Junkyard Golf Club in London";
 }
 
 if (act_result === "romance" && city_result === "manchester") {
-    destination = "to Poetry Corner at Manchester Metropolitan University";
+    destination = "to Poetry Library at Manchester Metropolitan University";
 }
 
 if (act_result === "romance" && city_result === "leeds") {
-    destination = "to the Drawing Club in Leeds City Centre";
+    destination = "to the Drawing Club at Main Studio in Meanwood Leeds";
 }
 
-if (act_result === "romance" && city_result === "manchester") {
+if (act_result === "romance" && city_result === "london") {
     destination = "to the National History Museum in London";
 }
 
 
-document.getElementById("result").innerHTML = `You have chosen an ${act_result} in the city of ${city_result}`;
+document.getElementById("result").innerHTML = `You have chosen ${act_result} in the city of ${city_result}`;
 
 document.getElementById("destination").innerHTML = `Your going ${destination}`;
-
+}
 
 // google maps 
 
@@ -73,4 +73,3 @@ new google.maps.Marker({position: myLatLng,
 let API_KEY = "yourAPIkey";
 console.log(API_KEY.keyHelper());
 // Outputs "NehbllrxVC"
-}

@@ -63,7 +63,7 @@ As a potential user of this site, the user would -
 
  - Discover what Destination Date Night is, how it works and what it reveals.
  - See a brand that draws users in and then after user interaction entices users to find out more.
- - Find its USP (unique selling point) is its uniqueness. During research the owner was unaware of a site like this.
+ - Find its USP (unique selling point) is its uniqueness. During initial research the owner was unaware of a site like this. 
  - Understand what service it offers
  - Be encouraged to find out more about the brand and company by clicking links to socia media pages.
  - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
@@ -109,7 +109,7 @@ The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe show
 The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look, the navbar here sits across the top of the page, text, interactivity dropdowns and Google Map all sit on top as the design is the same as mobile.
 
 There are a few slight adjustments from the wireframes this was due mainly to styling aesthetics. Having text screen wide made the site look bulky and messy it needed some blank areas to clean it up, However the desktop site needed the Google map to be screen wide to keep in users eyeline.
-Also it was realised that the HTML buttons
+
 
 
 ### Surface 
@@ -231,7 +231,8 @@ Laptop:
 Tablet:
 - xxxxxxx
 
-
+## Evaluation
+- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the work to design this site. Here is [Designmynight](https://www.designmynight.com/)
 
 ## Deployment
 
