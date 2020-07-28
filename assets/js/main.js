@@ -14,15 +14,15 @@ let destination ='';
 // place date is going 
 
 if (act_result === "dinner" && city_result === "manchester") {
-    destination = "McDonald's in Manchester City Centre";
+    destination = "to McDonald's in Manchester City Centre";
 }
 
 if (act_result === "dinner" && city_result === "leeds") {
-    destination = "Nando's in Leeds City Centre";
+    destination = "to Nando's in Leeds City Centre";
 }
 
 if (act_result === "dinner" && city_result === "london") {
-    destination = "Gordon Ramsay's Bread Street Kitchen in London";
+    destination = "to Gordon Ramsay's Bread Street Kitchen in London";
 }
 
 if (act_result === "activity" && city_result === 'manchester') {
@@ -30,23 +30,23 @@ if (act_result === "activity" && city_result === 'manchester') {
 }
 
 if (act_result === "activity" && city_result === "leeds") {
-    destination = "To a Mud Race in Leeds City Centre";
+    destination = "to a Mud Race in Leeds City Centre";
 }
 
 if (act_result === "activity" && city_result === "london") {
-    destination = "To play Indoor Crazy Golf in London";
+    destination = "to play Indoor Crazy Golf in London";
 }
 
 if (act_result === "romance" && city_result === "manchester") {
-    destination = "Poetry Corner at Manchester Metropolitan University";
+    destination = "to Poetry Corner at Manchester Metropolitan University";
 }
 
 if (act_result === "romance" && city_result === "leeds") {
-    destination = " To the Drawing Club in Leeds City Centre";
+    destination = "to the Drawing Club in Leeds City Centre";
 }
 
 if (act_result === "romance" && city_result === "manchester") {
-    destination = " To the National History Museum in London";
+    destination = "to the National History Museum in London";
 }
 
 
