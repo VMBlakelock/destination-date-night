@@ -4,11 +4,11 @@
 
 ## Aim
 
-To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create their 'perfect date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
+To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create their 'Perfect Date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
 
 ## Purpose
 
-The owner of Destination Date Night wants to create fun website that allows users to interact using differing functionality. The user will select specified criteria from the two dropdown then click a button, this will in turn produce an outcome. The user can review this outcome in order to make a decision on where to go on their date.
+The owner of Destination Date Night wants to create fun website that allows users to interact using differing functionality. The user will select specified criteria from the two dropdowns then click a button, this will in turn produce an outcome. The user can review this outcome in order to make a decision on where to go on their date.
 
 It is hoped that the users will find the website to be a fun and interesting way to gather ideas for a date. By using the search criteria offered and the results the site returns the user can plan a date that will suit their individual needs.
 
@@ -42,11 +42,13 @@ The owner would like the website design -
 
 - To have a button that when clicked reveals and output.
 
-- To use the Google Maps JS API to place a marker in locations based on the users criteria.
+- To use the Google Maps JS API to have a marker on the destinations so the user can click to learn more.
 
-- To have a footer containing social media icons.
+- To have a footer containing social media icons that link to other sites.
 
 - To include company contact details.
+
+
 
 The site will -
 
@@ -61,10 +63,10 @@ The site will -
 
 As a potential user of this site, the user would -
 
- - Discover what Destination Date Night is, how it works and what it reveals.
+ - Discover what Destination Date Night is, how it works and what its output is.
  - See a brand that draws users in and then after user interaction entices users to find out more.
  - Find its USP (unique selling point) is its uniqueness. During initial research the owner was unaware of a site like this. 
- - Understand what service it offers
+ - Understand what functionalities it offers.
  - Be encouraged to find out more about the brand and company by clicking links to socia media pages.
  - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
 
@@ -96,7 +98,7 @@ As a potential user of this site, the user would -
 
 ### Skeleton
 
-#### Wireframes
+*#### Wireframes*
 
 Desktop and Mobile wireframes were created to demonstrate the initial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -108,24 +110,22 @@ The [Mobile](assets/wireframes/destination-date-night-mobile.png) wireframe show
 
 The [Desktop](assets/wireframes/destination-date-night-desktop.png) wireframe gives a more spaced look, the navbar here sits across the top of the page, text, interactivity dropdowns and Google Map all sit on top as the design is the same as mobile.
 
-There are a few slight adjustments from the wireframes this was due mainly to styling aesthetics. Having text screen wide made the site look bulky and messy it needed some blank areas to clean it up, However the desktop site needed the Google map to be screen wide to keep in users eyeline.
+There are a few slight adjustments from the wireframes this was due mainly to styling aesthetics. Having text screen wide made the site look bulky and messy it needed some blank areas to clean it up. However the desktop site needed the Google map to be screen wide to keep in users eyeline.
 
 
 
 ### Surface 
 
 Colors and fonts where important to the website to promote a sultry, tempting, feel good reaction.
-The site's "evening" colors of greys and black where therefore selected.
+The site's "evening" colors of greys and black where selected to enhance this feeling.
 
-Users will see that Destination Date Night is aiming for a luxurious look. The Hero image provides that instant attraction.
-
+Users will see that Destination Date Night is aiming for a luxurious look. The Hero image provides that instant attraction on site opening.
 
 
 
 ## Features 
 
 ### Existing Features
-
 
 One webpage page: The site uses just one page with a simple scroll movement this will provide ease of use. 
 
@@ -140,7 +140,6 @@ Google Maps:  The Google Map API adds value by showcasing the date destinations 
 Hyperlink: There is a hyperlink at the bottom of the map to take people back to the site top.
 
 Social Media Links: Social Media icons are positioned in the footer, so to allow users to visit other Destination Date Night media.
-
 
 
 ### Future Features
@@ -173,66 +172,78 @@ Future features of Destination Date Night could include -
 
 ## Testing
 
-Various testing was undertaken during the creation of this site including different browser usage, various devices checks. Also the W3C Markup Validator, validation check was ongoing throughout the project development.
+Various testing was undertaken during the creation of this site including various devices checks. Also the W3C Markup Validator, validation check was ongoing throughout the project development.
 
-Below are a few various issues and bugs I found during the creation.
+Below are a few issues and bugs found during the development stages.
 
 
 #### Issue 1
 
 Footer 
-- I struggled to get the positioning right in footer finally managed after testing a few different scenarios. Realised I should have done the testing in a branch to show the workings.
-- Font Awesome Instragam icon square would not load, all other social icons in square format worked just this one, I eventually tried the alternative non square icon and this displayed correctly, therefore kept this icon on the site.
+- A couple of issues with the footer postioning during development nothing to difficult to resolve. The main one being the Font Awesome Instragam icon square  - this just would not load. All other social icons in square format worked and displayed well it was just this one. Eventually the alternative non square icon was tested and this displayed correctly, therefore kept this icon on the site.
 
 #### Issue 2
 
 Navbar
-- The Navbar was built following Bootstrap Navbar Documentation, however I wanted the navbar hamburger on the right instead of left on mobiles. After reviewing Bootstrap again I realised I had not added 'navbar-brand' to the nav html so I added this in. I also moved the entire 'a' class to above the 'button', this changed the position of the hamburger on mobiles.
-- The .navbar-brand then gave me issues I couldnt get it to line up correctly after a few tests in Google Dev tools, I figured out that the margin needed a fix. I added a 0px margin-right and margin-left to the CSS class and that fixed the issue.
+- First issue - the Navbar was built following Bootstrap Navbar Documentation, however the navbar hamburger was required on the right instead of left on mobiles. After reviewing Bootstrap documentation again the 'navbar-brand' had not been added to the nav html, this bug fixed. The entire 'a' class was moved to above the 'button', this changed the position of the hamburger on mobiles.
+- Secondly the .navbar-brand would not line up correctly. After a few tests in Google Dev tools, it is believed a margin needed a fix. A 0px margin-right and margin-left was added to the CSS .navbar-brand class and that fixed the issue.
 
 #### Issue 3
 
-IPAD
-- The challenge was getting the IPAD to be responsive. In Google Dev Tools when I used the size markers and the responsive dropdown at the top, my tablet at 768 x 768 worked and was aligned. However when I used the IPAD template the size changed and was out of line.
-I tried to fix this but was unable to rectify. However by the end of the project this somehow fixed itself.
+Background Image
+- The background image wasnt responding well to responsive design. After googling it was found a Hero Image would suit better. At first the inital image that was chosen wouldnt sit correctly, so another image was selected. This seemed to fit correctly on first attempt. 
+After some testing the footer and the background to the "Perfect Date" text didnt align with the hero images. In CSS the width of the images had been set to 1600px after googling for a suitable resolution for a hero image. Once this had been amended to 100% everything lined up correctly.
 
 #### Issue 4
 
-- I realised my background image wasnt responding well to responsive design. Not sure why I didnt notice this earlier. I googled and realised I needed to have a Hero Image instead. 
+IPAD
+- The challenge was getting the IPAD to be responsive. Whilst testing in Google Dev Tools using the size markers and the responsive dropdown at the top, a tablet at 768 x 768 worked and was aligned. However when the IPAD template was used the size changed and was out of line.
+Testing was done to fix this but it was unrectified. However by the end of the project this somehow fixed itself. The thought on this fix is possibly due to the amendment of the hero image size as discussed above. 
 
 #### Issue 5
 
 If statement 
-- My first attempt at writing my if statement didnt work. I initially wrote using ==. After googling the difference between == and === operators, I realised this was my error. I needed the === operator so it would return true as both Dinner and Leeds needed to be true. However it still didnt work.
+- The first attempt at writing an 'if' statement didnt work. Initially it was written using the == operator. After googling the difference between == and === operators, it was realised this was the error. The code needed the === operator so it would return true as both Dinner and Leeds needed to be true. However it still didnt work.
+- Finally the error was found in a } symbol on line 13 in the main.js file - this was placed in a line of code that closed the function before it managed to filter through the data. Once the closing } was positioned correctly onto line 58 in the main.js file the function worked and the buttons could be clicked and the date text was revealed.
 
 #### Issue 6
 
 Google Map API 
-- Setting up the Google Map created errors in the console. After trying to correct it by re reading Google Maps JS API documentation it was founf the issue was with the HTTP Referrer in the credentials section of the Google Cloud Platform.
-In order to rectify this I had to add various links to my github projects. My github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
-
+- Setting up the Google Map created errors in the console. After trying to correct it by re reading Google Maps JS API documentation it was found the issue was with Application Restriction section specifically the HTTP Referrer in the main Credentials area of the Google Cloud Platform.
+- In order to rectify this various links where added here. The github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
 
 
 ### Browsers tested
 
-- Chrome, using Google Developer Tools
+- Chrome, using Google Developer Tools 
+Chrome was used for testing on Laptop, Tablet and Android devices.
+
+- Safari, was used on the I phone tests.
 
 ### Devices tested
 
 Mobile:
-- Android - Samsung Galaxy A40
-- Android - Samsung Galaxy A20
+- Android - Samsung Galaxy A40 - Outcome: Site works perfectly. No bugs found. All everything is responsive.
+- Android - Samsung Galaxy A20 - 
 - Android - Samsung Galaxy S10
 - IOS - Iphone - xxxxx
 
 Laptop:
-- Toshiba Satellite C850
+- Toshiba Satellite C850 - Outcome: Site works perfectly. No bugs found. All everything is responsive. 
 
 Tablet:
 - xxxxxxx
 
+
 ## Evaluation
-- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the work to design this site. Here is [Designmynight](https://www.designmynight.com/)
+
+- Overall the owner is pleased with the design and development of this site. It has all the basic requirements of a functional website and meets the project criteria.
+- The site definitely has room for future interactive activity, functionality and imagery.
+- During later stages of development it was realised some of the testing should have been branched off to show the workings. Something the owner will keep in mind for next time.
+- All testing was manual, the use of the Jasmine framework was not used. Again somthing to consider in the future, especially if additional functionalities are added at a later stage.
+- In user stories in 'the site will' section it was stated - *Based on criteria selected, link to the Google Maps JS API where markers will pop up based on user selection.* However this idea and functionality wasnt applied, primarily due to not having enough time to implement. Therefore a map with markers pre sitting was developed.
+- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. Here is [Designmynight](https://www.designmynight.com/)
+
 
 ## Deployment
 
@@ -260,16 +271,16 @@ If you want to run this project locally, we must clone the project for Github:
 
 ## Credits and References
 
-Personal credits go out to the following 
-- Spencer Barriball for the assistance and guidance in the building of Javascript functions, commented accordingly within the code.
+Personal credits go out to the following people
+- Spencer Barriball my mentor - for the assistance and guidance in the building of Javascript functions, commented accordingly within the code.
 
 Web References
 - [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
     - The Codahoy website 2019 references: *' === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.'*
 
 Tutor Support
-- Tim from tutor support advised on a security issue I had during the creation of my Google Map JS API. I was getting emails from Google saying my site was possible being comprimised. This was due to the API key being visable.
-Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created my Matt Rudge of Code Institute that would obfuscate my API key. I thought this was a great thing due to the added security to my site - therefore I decided to add it into my JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
+- Tim from tutor support advised on a security issue I had during the creation of my Google Map JS API. I was getting emails from Google saying my site was possibly being compromised. This was due to the API key being visible.
+Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created by Matt Rudge of Code Institute that would obfuscate my API key. I thought this was a great thing due to the added security to my site - therefore I decided to add it into my JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
 
 
 
@@ -293,7 +304,7 @@ Websites reviewed and used during the creation of this project.
   - Various research throughout.
 
 - [Bootstrap](https://getbootstrap.com/)
-  - Documentaton on Navabar and Modals.
+  - Documentation on Navbar and Modals.
 
  
 

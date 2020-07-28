@@ -2,6 +2,8 @@
 let act_result ="";
 let city_result ="";
 
+// function getDate() was advised by my mentor Spencer Barribell 
+
 function getDate(){
   let act = document.getElementById("activities");
   let act_result = act.options[act.selectedIndex].value;
