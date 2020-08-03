@@ -61,11 +61,12 @@ document.getElementById("destination").innerHTML = `Your going ${destination}`;
 
 
 function initMap() {
-    const myLatLng ={ lat: 52.954147, lng: -1.3101458 }; 
+    const myLatLng = { lat: 52.954147, lng: -1.3101458 }; 
     const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 6,
     center: myLatLng
   });
+
 
 new google.maps.Marker({ position: myLatLng, 
     map: map, 
