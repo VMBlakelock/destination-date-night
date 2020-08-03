@@ -61,17 +61,21 @@ document.getElementById("destination").innerHTML = `Your going ${destination}`;
 
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
+    const myLatLng = { lat: 54.230956, lng: -8.9539 };
+    const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 5,
-    center: { lat: 54.230956, lng: -8.9539 }
+    center: myLatLng
   });
-new google.maps.Marker({position: myLatLng,
-    map,
-    title: "Hello World!"
-  });
+new google.maps.Marker({ position: myLatLng, 
+    map: map, 
+    title: "Hello World"
+});
 }
+
+
 // code for obfuscated version of my api key - from tutor support Tim. https://github.com/Code-Institute-Org/key-helper
 
 let API_KEY = "yourAPIkey";
 console.log(API_KEY.keyHelper());
 // Outputs "NehbllrxVC"
+
