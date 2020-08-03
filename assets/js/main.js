@@ -16,18 +16,18 @@ let destination ='';
 // place date is going 
 
 if (act_result === "dinner" && city_result === "manchester") {
-    destination = "to McDonald's in Manchester City Centre";
+    destination = "to Tattu - Asian cuisine at Spinning Fields Manchester";
 }
 
 if (act_result === "dinner" && city_result === "leeds") {
-    destination = "to Nando's in Leeds City Centre";
+    destination = "to Manahatta in Leeds City Centre";
 }
 
 if (act_result === "dinner" && city_result === "london") {
     destination = "to Gordon Ramsay's Bread Street Kitchen in London";
 }
 
-if (act_result === "activity" && city_result === 'manchester') {
+if (act_result === "activity" && city_result === "manchester") {
     destination = "to Manchester Paint Ball Arena in Oldham, Manchester";
 }
 
@@ -44,7 +44,7 @@ if (act_result === "romance" && city_result === "manchester") {
 }
 
 if (act_result === "romance" && city_result === "leeds") {
-    destination = "to the Drawing Club at Main Studio in Meanwood Leeds";
+    destination = "to the Drawing Club at Main Studio, Meanwood Leeds";
 }
 
 if (act_result === "romance" && city_result === "london") {
@@ -61,14 +61,15 @@ document.getElementById("destination").innerHTML = `Your going ${destination}`;
 
 
 function initMap() {
-    const myLatLng = { lat: 54.230956, lng: -8.9539 };
+    const myLatLng ={ lat: 52.954147, lng: -1.3101458 }; 
     const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 5,
+    zoom: 6,
     center: myLatLng
   });
+
 new google.maps.Marker({ position: myLatLng, 
     map: map, 
-    title: "Hello World"
+    title: "Destination Date Night - UK"
 });
 }
 
