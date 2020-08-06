@@ -6,9 +6,11 @@
 
 To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create their 'Perfect Date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
 
+Technologies to be used in the project are HTML/CSS/Javascript with optional framework and API.
+
 ## Purpose
 
-The owner of Destination Date Night wants to create fun website that allows users to interact using differing functionality. The user will select specified criteria from the two dropdowns then click a button, this will in turn produce an outcome. The user can review this outcome in order to make a decision on where to go on their date.
+The owner of Destination Date Night wants to create a fun website that allows users to interact using differing functionality. The user will select specified criteria from the two dropdowns then click a button, this will in turn produce an outcome. The user can review this outcome in order to make a decision on where to go on their date.
 
 It is hoped that the users will find the website to be a fun and interesting way to gather ideas for a date. By using the search criteria offered and the results the site returns the user can plan a date that will suit their individual needs.
 
@@ -54,7 +56,7 @@ The site will -
 
 1. Have three main sections, the first a hero image with text enticing the user to look further, the second will be a querky narrative explaining the site, the third will house the interactivity.
 2. Explain the websites outcome by instructing how it is to be used.
-3. Based on criteria selected, link to the Google Maps JS API where markers will pop up based on user selection. 
+3. Based on criteria selected, output a 'date' which will be in text form. Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be. 
 4. Link to external social media sites.
 5. Will have contact details - location and email address of Destination Date Night HQ.
 
@@ -67,7 +69,7 @@ As a potential user of this site, the user would -
  - See a brand that draws users in and then after user interaction entices users to find out more.
  - Find its USP (unique selling point) is its uniqueness. During initial research the owner was unaware of a site like this. 
  - Understand what functionalities it offers.
- - Be encouraged to find out more about the brand and company by clicking links to socia media pages.
+ - Be encouraged to find out more about the brand and company by clicking links to social media pages.
  - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
 
 
@@ -223,6 +225,17 @@ Google Map API
   In order to rectify this various links where added here. The github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
 - During last testing sessions the Google Map was very temperamental, very slow in showing up and sometimes not showing at all. On last test the map worked.
 
+#### Issue 7
+
+Validation sites
+- When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
+- JShint for JS validation found there where 14 warnings, however many was of the same error. Unfortunately a fix wasnt implemented due to lack of understanding on how to resolve them and to time constraints. 
+  Here are the errors 
+  - *'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*
+  - *'template literal syntax' is only available in ES6 (use 'esversion: 6').*
+  - *'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*
+  - *'Invalid meta property: 'new.maps'.*
+
 
 ### Browsers tested
 
@@ -244,13 +257,14 @@ Laptop:
 
 ## Evaluation
 
-- Overall the owner is pleased with the design and development of this site. It has all the basic requirements of a functional website and meets the project criteria.
+- The owner is pleased with the design and development of this site. It has all the basic requirements of a functional website and meets the project criteria.
 - The site definitely has room for future interactive activity, functionality and imagery.
 - During later stages of development it was realised some of the testing should have been branched off to show the workings. Something the owner will keep in mind for next time.
 - All testing was manual, the use of the Jasmine framework was not used. Again somthing to consider in the future, especially if additional functionalities are added at a later stage.
-- In user stories in 'the site will' section it was stated - *Based on criteria selected, link to the Google Maps JS API where markers will pop up based on user selection.* However this idea and functionality wasnt applied, primarily due to not having enough time to implement with a full understanding. 
-  It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasnt confident in thier abilities to be able to explain the workings. Therefore only a map with one marker pre sitting was developed. 
-  Once the developer has a better understanding is in place this feature will be first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was the prime functionality during inception.
+- In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having enough time to implement with a full understanding. 
+  It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasnt confident in thier abilities to be able to explain the workings and possibly only having one marker that worked. Therefore it was decided to develop the site with only one marker on the map that pre sat on opening. 
+  Once the developer has a better understanding in place this feature will be first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was one of the prime functionalities during inception.
+- In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*
 - It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. 
   Here is the similar site [Designmynight](https://www.designmynight.com/)
 
@@ -327,9 +341,11 @@ Websites reviewed and used during the creation of this project.
 
 The Slack community for assisting me on my journey through this website.
 
-My mentor for providing excellent guidance and expertise to allow me to be confident in developing this site.
+A fantastic mentor for providing excellent guidance and expertise to allow me to be confident in developing this site.
 
 Tutor support for my questions when I need a little extra assistance.
+
+The developers own perserverance during a tough 6 months of a global pandemic resulting in lockdown, additional workload, changes in family commitments, illness and the unknown.
 
 
 *created for education purposes only*

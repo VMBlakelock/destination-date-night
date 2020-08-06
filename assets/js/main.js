@@ -74,6 +74,9 @@ new google.maps.Marker({ position: myLatLng,
 });
 }
 
+function myFunction() {
+  alert("Contact us via the social media sites for now!");
+}
 
 // code for obfuscated version of my api key - from tutor support Tim. https://github.com/Code-Institute-Org/key-helper
 
