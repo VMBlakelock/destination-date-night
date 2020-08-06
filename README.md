@@ -77,13 +77,13 @@ As a potential user of this site, the user would -
 
 ### Strategy
 
-- Destination Date Night is currently a simple fun interactivie website. It allows simple usage to provide a fun factor for idea gathering. It features the 3 core languages of web development HTML, CSS and Javascript and Google Maps JS API as its main feature. 
+- Destination Date Night is currently a simple fun interactive website. It allows simple usage to provide a fun factor for idea gathering. It features the 3 core languages of web development HTML, CSS and Javascript and Google Maps JS API as a prime feature. 
 
 - There is a clear brand (although no logo as of yet) and a company philosophy of "Making Memories" whilst incorporating this the fun factor was required to be a major part of the content.
 
-- Destination Date Night has the potential of not only being a popular fun idea gathering site for current users, it potentially has the power to become a thriving buisness site. As mentioned by adding a few addtional features to the site and marketing well. Destination Date night could be something with a decent ROI.
+- Destination Date Night has the potential of not only being a popular fun idea gathering site for current users, it potentially has the power to become a thriving business site. By adding a few addtional features to the site and marketing it well, Destination Date night could be something with a decent ROI.
 
-- During research I was unable to find any other sites that had the same 'making memories' concept within a simple game like page making Destination Dte Night a niche. 
+- During research I was unable to find any other sites that had the same 'making memories' concept within a simple game like page making Destination Date Night a niche. 
 
 
 ### Scope 
@@ -93,9 +93,9 @@ As a potential user of this site, the user would -
 
 ### Structure
 
-- Destination Date Nights site structure was to be simple. A one page site that draws in the user with a straightforward scroll. An eyecatching hero image and little enticing text to invite the user to see more.  
+- Destination Date Night's site structure was to be simple. A one page site that draws in the user with a straightforward scroll. An eye-catching hero image and little enticing text to invite the user to see more.  
 
-- The site has 5 areas, Nav bar, Hero Image, 2 main sections with descriptive text and interactivity and a footer. It is hoped the user would be drawn into the site with by the brand design, color, image and text.
+- The site has 5 areas, Navbar, Hero Image, 2 main sections with descriptive text and interactivity and a footer. It is hoped the user would be drawn into the site with by the brand design, color, image and text.
 
 
 ### Skeleton
@@ -135,7 +135,7 @@ Navbar: The navbar is responsive and links to both of the main sections The Dati
 
 Dropdowns: The two dropdowns have specific criteria built in, a Date Type and a Date Location. The dropdown when clicked reveals specified criteria to select.
 
-Button: The button when clicked reveals the date chosen this provides a neat feature to the site.
+Button: The button when clicked reveals the date chosen in text format this provides a neat feature to the site.
 
 Google Maps:  The Google Map API adds value by showcasing the date destinations with a marker.
 
@@ -160,8 +160,8 @@ Future features of Destination Date Night could include -
 ## Technologies And Frameworks Used 
 
 #### Technologies
-- html
-- css
+- HTML
+- CSS
 - Javascript
 
 #### Frameworks
@@ -176,9 +176,17 @@ Future features of Destination Date Night could include -
 #### Hosting Platform
 - [Github](https://github.com/)
 
+#### Developer Tools
+- Google Dev Tools
+
+#### API
+- [Google Maps JS API](https://developers.google.com/maps/documentation/javascript/overview)
+
 #### Validation sites
 - [W3C Markup Validation](https://validator.w3.org/)
 - [Jshint](https://jshint.com/)
+
+
 
 
 
@@ -203,7 +211,7 @@ Navbar
 #### Issue 3
 
 Background Image
-- The background image wasnt responding well to responsive design. After googling it was found a Hero Image would suit better. At first the inital image that was chosen wouldnt sit correctly, so another image was selected. This seemed to fit correctly on first attempt. 
+- The background image wasn't responding well to responsive design. After googling it was found a Hero Image would suit better. At first the inital image that was chosen wouldn't sit correctly, so another image was selected. This seemed to fit correctly on first attempt. 
 After some testing the footer and the background to the "Perfect Date" text didnt align with the hero images. In CSS the width of the images had been set to 1600px after googling for a suitable resolution for a hero image. Once this had been amended to 100% everything lined up correctly.
 
 #### Issue 4
@@ -227,6 +235,13 @@ Google Map API
 
 #### Issue 7
 
+Alert Box 
+- In the Potential User section, there was to be a contact form implemented. As this was not implemented, as a possible workaround the idea of an alert box was thought to be an option.
+  An alert box was created using HTML and JS and tested. The alert box showed when the email address in the footer was clicked. The alert box worked perfectly on a desktop however on the mobile there was no pop up alert. Also aesthetically the button looked ugly and not suited for the sites look, therefore this was removed.
+  [alert box image](assets/images/alert-box-image-capture.jpg)
+
+#### Issue 8
+
 Validation sites
 - When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
 - JShint for JS validation found there where 14 warnings, however many was of the same error. Unfortunately a fix wasnt implemented due to lack of understanding on how to resolve them and to time constraints. 
@@ -239,10 +254,9 @@ Validation sites
 
 ### Browsers tested
 
-- Chrome, using Google Developer Tools 
-Chrome was used for testing on Laptop, Tablet and Android devices.
+- Chrome: Using Google Developer Tools - Chrome was used for testing on Laptop, Tablet and Android devices.
 
-- Safari, wasnt used for testing on an I phone or Mac, due to not having access to these type of devices.
+- Safari: Safari wasn't used for testing on an I phone or Mac, due to not having access to these type of devices.
 
 ### Devices tested
 
@@ -261,10 +275,10 @@ Laptop:
 - The site definitely has room for future interactive activity, functionality and imagery.
 - During later stages of development it was realised some of the testing should have been branched off to show the workings. Something the owner will keep in mind for next time.
 - All testing was manual, the use of the Jasmine framework was not used. Again somthing to consider in the future, especially if additional functionalities are added at a later stage.
-- In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having enough time to implement with a full understanding. 
-  It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasnt confident in thier abilities to be able to explain the workings and possibly only having one marker that worked. Therefore it was decided to develop the site with only one marker on the map that pre sat on opening. 
+- In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having a full understanding but also due to time contraints. 
+  It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasn't confident in their abilities to be able to explain the workings and possibly only having one marker that worked. Therefore it was decided to develop the site with only one static marker on the map that pre sat on opening and when hovered over on a laptop popped up text.
   Once the developer has a better understanding in place this feature will be first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was one of the prime functionalities during inception.
-- In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*
+- In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*, a form wasnt implemented again due to time constraints. 
 - It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. 
   Here is the similar site [Designmynight](https://www.designmynight.com/)
 
