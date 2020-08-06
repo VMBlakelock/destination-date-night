@@ -155,18 +155,28 @@ Future features of Destination Date Night could include -
 - An e commerce shop where users could order branded Destination Date Night merchandise.
 
 
-## Technologies Used 
+## Technologies And Frameworks Used 
 
-- html5
-- css3
-- Git
+#### Technologies
+- html
+- css
 - Javascript
+
+#### Frameworks
 - [Bootstrap](https://getbootstrap.com/)
-- [Github](https://github.com/)
+
+#### Text Editor
 - [Gitpod](https://gitpod.io/)
-- [Balsamiq](https://balsamiq.com/)
-- [Google Fonts](https://google.fonts.com/)
+
+#### Version Control
+- Git
+
+#### Hosting Platform
+- [Github](https://github.com/)
+
+#### Validation sites
 - [W3C Markup Validation](https://validator.w3.org/)
+- [Jshint](https://jshint.com/)
 
 
 
@@ -210,7 +220,8 @@ If statement
 
 Google Map API 
 - Setting up the Google Map created errors in the console. After trying to correct it by re reading Google Maps JS API documentation it was found the issue was with Application Restriction section specifically the HTTP Referrer in the main Credentials area of the Google Cloud Platform.
-- In order to rectify this various links where added here. The github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
+  In order to rectify this various links where added here. The github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
+- During last testing sessions the Google Map was very temperamental, very slow in showing up and sometimes not showing at all. On last test the map worked.
 
 
 ### Browsers tested
@@ -218,21 +229,17 @@ Google Map API
 - Chrome, using Google Developer Tools 
 Chrome was used for testing on Laptop, Tablet and Android devices.
 
-- Safari, was used on the I phone tests.
+- Safari, wasnt used for testing on an I phone or Mac, due to not having access to these type of devices.
 
 ### Devices tested
 
 Mobile:
-- Android - Samsung Galaxy A40 - Outcome: Site works perfectly. No bugs found. All everything is responsive.
-- Android - Samsung Galaxy A20 - 
-- Android - Samsung Galaxy S10
-- IOS - Iphone - xxxxx
+- Android - Samsung Galaxy A40 - Outcome: Site works perfectly. No bugs found. All is responsive.
+- Android - Samsung Galaxy A20 - Outcome: Site works perfectly. No bugs found. All is responsive.
+- Android - Samsung Galaxy S10 - Outcome: Site works perfectly. No bugs found. All is responsive.
 
 Laptop:
 - Toshiba Satellite C850 - Outcome: Site works perfectly. No bugs found. All everything is responsive. 
-
-Tablet:
-- xxxxxxx
 
 
 ## Evaluation
@@ -241,8 +248,11 @@ Tablet:
 - The site definitely has room for future interactive activity, functionality and imagery.
 - During later stages of development it was realised some of the testing should have been branched off to show the workings. Something the owner will keep in mind for next time.
 - All testing was manual, the use of the Jasmine framework was not used. Again somthing to consider in the future, especially if additional functionalities are added at a later stage.
-- In user stories in 'the site will' section it was stated - *Based on criteria selected, link to the Google Maps JS API where markers will pop up based on user selection.* However this idea and functionality wasnt applied, primarily due to not having enough time to implement. Therefore a map with markers pre sitting was developed.
-- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. Here is [Designmynight](https://www.designmynight.com/)
+- In user stories in 'the site will' section it was stated - *Based on criteria selected, link to the Google Maps JS API where markers will pop up based on user selection.* However this idea and functionality wasnt applied, primarily due to not having enough time to implement with a full understanding. 
+  It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasnt confident in thier abilities to be able to explain the workings. Therefore only a map with one marker pre sitting was developed. 
+  Once the developer has a better understanding is in place this feature will be first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was the prime functionality during inception.
+- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. 
+  Here is the similar site [Designmynight](https://www.designmynight.com/)
 
 
 ## Deployment
@@ -274,15 +284,13 @@ If you want to run this project locally, we must clone the project for Github:
 Personal credits go out to the following people
 - Spencer Barriball my mentor - for the assistance and guidance in the building of Javascript functions, commented accordingly within the code.
 
-Web References
-- [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
-    - The Codahoy website 2019 references: *' === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.'*
-
 Tutor Support
 - Tim from tutor support advised on a security issue I had during the creation of my Google Map JS API. I was getting emails from Google saying my site was possibly being compromised. This was due to the API key being visible.
 Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created by Matt Rudge of Code Institute that would obfuscate my API key. I thought this was a great thing due to the added security to my site - therefore I decided to add it into my JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
 
-
+Web References
+- [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
+    - The Codahoy website 2019 references: *' === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.'*
 
 #### Websites reviewed
 
@@ -295,16 +303,22 @@ Websites reviewed and used during the creation of this project.
   - Used for choosing inital font for css @import
 
 - [W3Schools](https://www.w3schools.com/basic-syntax/)
-  - Reviewed and used frequently throughout the design of this project. Specifically for the styling of the text over image.
+  - Reviewed and used frequently throughout the design of this project.
 
 - [W3C Markup Validation](https://validator.w3.org/)
-  - Validation testing.
+  - Validation testing of HTML and CSS.
+
+- [Jshint](https://jshint.com/)
+  - Validation testing of Javascript.
   
 - [StackOverflow](https://stackoverflow.com/)
   - Various research throughout.
 
 - [Bootstrap](https://getbootstrap.com/)
   - Documentation on Navbar and Modals.
+
+- [Balsamiq](https://balsamiq.com/)
+  - Used for creating the wireframes.
 
  
 

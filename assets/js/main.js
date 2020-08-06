@@ -2,7 +2,7 @@
 let act_result ="";
 let city_result ="";
 
-// function getDate() was advised by my mentor Spencer Barribell 
+// function getDate() was advised by my mentor Spencer Barriball 
 
 function getDate(){
   let act = document.getElementById("activities");
