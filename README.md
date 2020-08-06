@@ -189,9 +189,6 @@ Future features of Destination Date Night could include -
 - [Jshint](https://jshint.com/)
 
 
-
-
-
 ## Testing
 
 Various testing was undertaken during the creation of this site including various devices checks. Also the W3C Markup Validator, validation check was ongoing throughout the project development.
@@ -204,11 +201,13 @@ Below are a few issues and bugs found during the development stages.
 Footer 
 - A couple of issues with the footer postioning during development nothing to difficult to resolve. The main one being the Font Awesome Instragam icon square  - this just would not load. All other social icons in square format worked and displayed well it was just this one. Eventually the alternative non square icon was tested and this displayed correctly, therefore kept this icon on the site.
 
+
 #### Issue 2
 
 Navbar
 - First issue - the Navbar was built following Bootstrap Navbar Documentation, however the navbar hamburger was required on the right instead of left on mobiles. After reviewing Bootstrap documentation again the 'navbar-brand' had not been added to the nav html, this bug fixed. The entire 'a' class was moved to above the 'button', this changed the position of the hamburger on mobiles.
 - Secondly the .navbar-brand would not line up correctly. After a few tests in Google Dev tools, it is believed a margin needed a fix. A 0px margin-right and margin-left was added to the CSS .navbar-brand class and that fixed the issue.
+
 
 #### Issue 3
 
@@ -216,17 +215,20 @@ Background Image
 - The background image wasn't responding well to responsive design. After googling it was found a Hero Image would suit better. At first the inital image that was chosen wouldn't sit correctly, so another image was selected. This seemed to fit correctly on first attempt. 
 After some testing the footer and the background to the "Perfect Date" text didnt align with the hero images. In CSS the width of the images had been set to 1600px after googling for a suitable resolution for a hero image. Once this had been amended to 100% everything lined up correctly.
 
+
 #### Issue 4
 
 IPAD
 - The challenge was getting the IPAD to be responsive. Whilst testing in Google Dev Tools using the size markers and the responsive dropdown at the top, a tablet at 768 x 768 worked and was aligned. However when the IPAD template was used the size changed and was out of line.
 Testing was done to fix this but it was unrectified. However by the end of the project this somehow fixed itself. The thought on this fix is possibly due to the amendment of the hero image size as discussed above. 
 
+
 #### Issue 5
 
 If statement 
 - The first attempt at writing an 'if' statement didnt work. Initially it was written using the == operator. After googling the difference between == and === operators, it was realised this was the error. The code needed the === operator so it would return true as both Dinner and Leeds needed to be true. However it still didnt work.
 - Finally the error was found in a } symbol on line 13 in the main.js file - this was placed in a line of code that closed the function before it managed to filter through the data. Once the closing } was positioned correctly onto line 58 in the main.js file the function worked and the buttons could be clicked and the date text was revealed.
+
 
 #### Issue 6
 
@@ -235,12 +237,14 @@ Google Map API
   In order to rectify this various links where added here. The github live site link, the gitpod workspace link and two wildcard links. Finally the map worked.
 - During last testing sessions the Google Map was very temperamental, very slow in showing up and sometimes not showing at all. On last test the map worked.
 
+
 #### Issue 7
 
 Alert Box 
 - In the Potential User section, there was to be a contact form implemented. As this was not implemented, as a possible workaround the idea of an alert box was thought to be an option.
   An alert box was created using HTML and JS and tested. The alert box showed when the email address in the footer was clicked. The alert box worked perfectly on a desktop however on the mobile there was no pop up alert. Also aesthetically the button looked ugly and not suited for the sites look, therefore this was removed.
   [alert box image](assets/images/alert-box-image-capture.jpg)
+
 
 #### Issue 8
 
@@ -352,7 +356,8 @@ Websites reviewed and used during the creation of this project.
 - [Balsamiq](https://balsamiq.com/)
   - Used for creating the wireframes.
 
- 
+- [Techsini](https://techsini.com/multi-mockup/)
+ - Used for Mock Up Images.
 
 
 ## Acknowledgements
