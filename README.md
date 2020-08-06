@@ -1,4 +1,4 @@
-<img src="assets/images/Destination-Date-Night-mock-up.png">
+<img src="assets/images/destination-date-night-mock-up.png">
 
 # Destination Date Night 
 
@@ -72,6 +72,8 @@ As a potential user of this site, the user would -
  - Be encouraged to find out more about the brand and company by clicking links to social media pages.
  - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
 
+
+<img src="destination-date-night-devices-mock-up.png">
 
 ## 5 Planes
 
