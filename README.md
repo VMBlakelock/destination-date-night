@@ -73,7 +73,7 @@ As a potential user of this site, the user would -
  - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
 
 
-<img src="destination-date-night-devices-mock-up.png">
+<img src="assets/images/destination-date-night-devices-mock-up.png">
 
 ## 5 Planes
 
