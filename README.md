@@ -1,4 +1,4 @@
-<img src="" style="margin: 0;">
+<img src="assets/images/Destination-Date-Night-mock-up.png">
 
 # Destination Date Night 
 
@@ -157,7 +157,7 @@ Future features of Destination Date Night could include -
 - An e commerce shop where users could order branded Destination Date Night merchandise.
 
 
-## Technologies And Frameworks Used 
+## Technologies 
 
 #### Technologies
 - HTML
@@ -260,13 +260,15 @@ Validation sites
 
 ### Devices tested
 
+On final testing session the below devices where used here are the outcomes.
+
 Mobile:
 - Android - Samsung Galaxy A40 - Outcome: Site works perfectly. No bugs found. All is responsive.
 - Android - Samsung Galaxy A20 - Outcome: Site works perfectly. No bugs found. All is responsive.
 - Android - Samsung Galaxy S10 - Outcome: Site works perfectly. No bugs found. All is responsive.
 
 Laptop:
-- Toshiba Satellite C850 - Outcome: Site works perfectly. No bugs found. All everything is responsive. 
+- Toshiba Satellite C850 - Outcome: Site works perfectly. No bugs found. All is responsive. 
 
 
 ## Evaluation
@@ -278,7 +280,7 @@ Laptop:
 - In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having a full understanding but also due to time contraints. 
   It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasn't confident in their abilities to be able to explain the workings and possibly only having one marker that worked. Therefore it was decided to develop the site with only one static marker on the map that pre sat on opening and when hovered over on a laptop popped up text.
   Once the developer has a better understanding in place this feature will be first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was one of the prime functionalities during inception.
-- In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*, a form wasnt implemented again due to time constraints. 
+- In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*, a form wasnt implemented again due to time constraints. A workaround was thought about and tested by way of an alert box - as explained in Testing section - Issue 7. When this feature is implemented EmailJS is a possible tool to use.
 - It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. 
   Here is the similar site [Designmynight](https://www.designmynight.com/)
 
