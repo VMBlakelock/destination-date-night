@@ -13,7 +13,7 @@ function getDate(){
 
 let destination ='';
 
-// place date is going 
+// date location
 
 if (act_result === "dinner" && city_result === "manchester") {
     destination = "to Tattu - Asian cuisine at Spinning Fields Manchester";
@@ -57,7 +57,7 @@ document.getElementById("result").innerHTML = `You have chosen ${act_result} in 
 document.getElementById("destination").innerHTML = `Your going ${destination}`;
 }
 
-// google maps 
+// google map 
 
 
 function initMap() {

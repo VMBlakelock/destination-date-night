@@ -102,7 +102,7 @@ As a potential user of this site, the user would -
 
 ### Skeleton
 
-*#### Wireframes*
+#### Wireframes
 
 Desktop and Mobile wireframes were created to demonstrate the initial idea for the site. They were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -248,6 +248,12 @@ Alert Box
 
 #### Issue 8
 
+Navigation
+- It was noticed that the navigation links to the different sections to the site where a bit out when tested. On both mobile and laptop when clicked they didn't go directly to the title of the section. Both navs should up slightly below the titled section.
+- A fix couldnt be found.
+
+#### Issue 9
+
 Validation sites
 - When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
 - JShint for JS validation found there where 14 warnings, however many was of the same error. Unfortunately a fix wasnt implemented due to lack of understanding on how to resolve them and to time constraints. 
@@ -256,6 +262,8 @@ Validation sites
   - *'template literal syntax' is only available in ES6 (use 'esversion: 6').*
   - *'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*
   - *'Invalid meta property: 'new.maps'.*
+
+
 
 
 ### Browsers tested
@@ -282,12 +290,12 @@ Laptop:
 - The owner is pleased with the design and development of this site. It has all the basic requirements of a functional website and meets the project criteria.
 - The site definitely has room for future interactive activity, functionality and imagery.
 - During later stages of development it was realised some of the testing should have been branched off to show the workings. Something the owner will keep in mind for next time.
-- All testing was manual, the use of the Jasmine framework was not used. Again somthing to consider in the future, especially if additional functionalities are added at a later stage.
-- In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having a full understanding but also due to time contraints. 
+- All testing was manual, the use of the Jasmine framework was not used. Again something to consider in the future, especially if additional functionalities are added at a later stage.
+- In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having a full understanding of its concept and due to time contraints. 
   It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasn't confident in their abilities to be able to explain the workings and possibly only having one marker that worked. Therefore it was decided to develop the site with only one static marker on the map that pre sat on opening and when hovered over on a laptop popped up text.
-  Once the developer has a better understanding in place this feature will be first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was one of the prime functionalities during inception.
+  Once the developer has a better understanding in place this feature will be the first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was one of the prime functionalities during inception.
 - In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*, a form wasnt implemented again due to time constraints. A workaround was thought about and tested by way of an alert box - as explained in Testing section - Issue 7. When this feature is implemented EmailJS is a possible tool to use.
-- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put in to design this site. 
+- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put into designing this site. 
   Here is the similar site [Designmynight](https://www.designmynight.com/)
 
 
@@ -321,8 +329,8 @@ Personal credits go out to the following people
 - Spencer Barriball my mentor - for the assistance and guidance in the building of Javascript functions, commented accordingly within the code.
 
 Tutor Support
-- Tim from tutor support advised on a security issue I had during the creation of my Google Map JS API. I was getting emails from Google saying my site was possibly being compromised. This was due to the API key being visible.
-Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created by Matt Rudge of Code Institute that would obfuscate my API key. I thought this was a great thing due to the added security to my site - therefore I decided to add it into my JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
+- Tim from tutor support advised on a security issue during the creation of the Google Map JS API. The owner was recieving emails from Google saying the site was possibly being compromised. This was due to the API key being visible.
+Tim recommended that this maybe something to try to stop the emails and sent me a link to the "keyHelper" created by Matt Rudge of Code Institute that would obfuscate my API key. The owner thought this was a great thing due to the added security to the site - therefore it was decided to add it into the JS file on the project. [githubkeyhelper](https://github.com/Code-Institute-Org/key-helper)
 
 Web References
 - [codeahoy](https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/#:~:text=The%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20is%20that%3A,the%20two%20variables%20being%20compared)
@@ -359,6 +367,9 @@ Websites reviewed and used during the creation of this project.
 - [Techsini](https://techsini.com/multi-mockup/)
  - Used for Mock Up Images.
 
+- [Pexels](https://www.pexels.com/)
+ - Used for Hero Images.
+
 
 ## Acknowledgements
 
@@ -368,7 +379,8 @@ A fantastic mentor for providing excellent guidance and expertise to allow me to
 
 Tutor support for my questions when I need a little extra assistance.
 
-The developers own perserverance during a tough 6 months of a global pandemic resulting in lockdown, additional workload, changes in family commitments, illness and the unknown.
+The developers own perserverance during a tough 6 months of a global pandemic resulting in lockdown, additional workload, changes in family commitments, stress, illness and the unknown.
+It is hoped the project can be relooked at in the future and make it as great as it potentially could be.
 
 
 *created for education purposes only*
